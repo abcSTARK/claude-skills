@@ -1,6 +1,6 @@
-# claude-skills
-
-**A growing collection of Claude Code skills — built on real workflows, not hypotheticals.**
+<div align="center">
+<img src="assets/banner.svg" alt="claude-skills — every skill here started as a real problem, solved end-to-end, then generalized" width="100%"/>
+</div>
 
 Every skill in this repo started as an actual multi-hour session solving a real problem, then got generalized into something reusable. Nothing here was written speculatively; if a skill says "watch out for X," it's because X actually happened and cost someone time to debug.
 
