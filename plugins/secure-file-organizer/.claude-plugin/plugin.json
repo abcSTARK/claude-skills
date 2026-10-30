@@ -1,0 +1,10 @@
+{
+  "name": "secure-file-organizer",
+  "description": "Organizes a messy filesystem into a clean category structure while detecting sensitive personal documents by content (not just filename) and routing them into a macOS encrypted vault.",
+  "version": "1.0.0",
+  "author": {
+    "name": "abcSTARK",
+    "url": "https://github.com/abcSTARK"
+  },
+  "homepage": "https://github.com/abcSTARK/claude-skills"
+}

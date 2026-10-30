@@ -1,0 +1,23 @@
+{
+  "skill_name": "secure-file-organizer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "My Downloads folder is a total mess — there's movies, random PDFs, some photos, what looks like duplicate installers, and I think maybe a scan of an ID card in there somewhere. Can you organize it for me?",
+      "expected_output": "Categorized directory structure (documents, media, projects, installers). Content of the generically-named PDF is actually inspected rather than guessed from its filename, and if it contains PII it is isolated/flagged for secure handling rather than filed normally. Suspected duplicate pairs are checksum-verified before any removal; a same-looking-but-different pair (different installer versions) is correctly NOT treated as a duplicate. Nothing destructive happens without an explanation.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "I have a folder of study notes all mixed together — different programming languages, frameworks, interview prep stuff, DSA notes, all dumped in one place. Can you split it up by subject/language/framework?",
+      "expected_output": "Files grouped by actual topic determined from content (not filename alone), with a sensible category scheme (language vs. framework vs. DSA vs. interview-prep). No file left miscategorized.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can you check if I have any duplicate files in this project folder and clean them up?",
+      "expected_output": "Only byte-identical files (verified via checksum) are removed. A similarly-named but actually-different file (edited content) is correctly left alone rather than deleted as a false-positive duplicate.",
+      "files": []
+    }
+  ]
+}

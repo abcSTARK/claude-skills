@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-skills",
+  "description": "A growing collection of Claude Code skills, built and field-tested on real workflows before being generalized and shared.",
+  "owner": {
+    "name": "abcSTARK",
+    "url": "https://github.com/abcSTARK"
+  },
+  "plugins": [
+    {
+      "name": "secure-file-organizer",
+      "description": "Organizes a messy filesystem into a clean category structure while detecting sensitive personal documents by content (not just filename) and routing them into a macOS encrypted vault.",
+      "source": "./plugins/secure-file-organizer",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["file-organization", "security", "privacy", "macos", "pii"]
+    }
+  ]
+}
