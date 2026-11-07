@@ -1,0 +1,10 @@
+{
+  "name": "travel-itinerary-builder",
+  "description": "Plans and verifies a multi-day trip, then generates a phone-first live trip guide (HTML with an illustrated real-coastline route map, Now/Next, day plans, options, vetted food and bars), a shareable A4 PDF with working map and booking links, and PNG pages for WhatsApp.",
+  "version": "1.0.0",
+  "author": {
+    "name": "abcSTARK",
+    "url": "https://github.com/abcSTARK"
+  },
+  "homepage": "https://github.com/abcSTARK/claude-skills"
+}
