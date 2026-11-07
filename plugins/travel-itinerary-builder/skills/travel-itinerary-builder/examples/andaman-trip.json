@@ -1,0 +1,2740 @@
+{
+ "short_title": "Thailand ’26",
+ "title_html": "Phuket, Krabi <em>&amp;</em> Phi Phi",
+ "dates_label": "17–24 Nov · Phuket, Krabi, Phi Phi",
+ "eyebrow": "Andaman coast · 17–24 November 2026",
+ "dek": "Seven nights, four beds, three ferries. One in Patong, two in Ao Nang, the birthday weekend on Phi Phi, two by the sea in Kamala.",
+ "travellers": [
+  "Arjun",
+  "Rohan",
+  "Sam",
+  "Kabir",
+  "Dev"
+ ],
+ "utc_offset_hours": 7,
+ "storage_key": "th26",
+ "file_slug": "thailand-26",
+ "map_region": "Thailand",
+ "researched": "Researched November 2026",
+ "explore_note": "Your YouTube list, checked, plus picks rated 4.5+ on Google",
+ "live_url": "",
+ "map": {
+  "bbox": [
+   97.86,
+   7.56,
+   99.1,
+   8.28
+  ],
+  "land": "andaman-land.json",
+  "aria": "Route map: Phuket airport to Patong, ferry from Rassada Pier to Krabi and Ao Nang, ferry to Koh Phi Phi, ferry back to Phuket and on to Kamala",
+  "points": {
+   "hkt": {
+    "lat": 8.113,
+    "lon": 98.317,
+    "label": "Airport",
+    "dx": "16px",
+    "dy": "-50%"
+   },
+   "patong": {
+    "lat": 7.896,
+    "lon": 98.297,
+    "kind": "stop"
+   },
+   "kamala": {
+    "lat": 7.952,
+    "lon": 98.282,
+    "kind": "stop"
+   },
+   "rassada": {
+    "lat": 7.856,
+    "lon": 98.403,
+    "label": "Rassada Pier",
+    "dx": "12px",
+    "dy": "20%"
+   },
+   "klong": {
+    "lat": 8.058,
+    "lon": 98.912,
+    "label": "Krabi Town",
+    "dx": "-30%",
+    "dy": "40%"
+   },
+   "aonang": {
+    "lat": 8.033,
+    "lon": 98.822,
+    "kind": "stop"
+   },
+   "phiphi": {
+    "lat": 7.74,
+    "lon": 98.77,
+    "kind": "stop"
+   },
+   "oldtown": {
+    "lat": 7.884,
+    "lon": 98.389,
+    "label": "Old Town",
+    "dx": "12px",
+    "dy": "-120%"
+   }
+  },
+  "stops": [
+   {
+    "point": "patong",
+    "label": "Patong",
+    "dates": "17",
+    "dx": "calc(-100% - 14px)",
+    "dy": "-10%"
+   },
+   {
+    "point": "aonang",
+    "label": "Ao Nang",
+    "dates": "18–20",
+    "dx": "-50%",
+    "dy": "-260%"
+   },
+   {
+    "point": "phiphi",
+    "label": "Koh Phi Phi",
+    "dates": "20–22",
+    "dx": "-50%",
+    "dy": "40%"
+   },
+   {
+    "point": "kamala",
+    "label": "Kamala",
+    "dates": "22–24",
+    "dx": "calc(-100% - 14px)",
+    "dy": "-130%",
+    "dx_narrow": "12px",
+    "dy_narrow": "-125%"
+   }
+  ],
+  "legs": [
+   {
+    "from": "hkt",
+    "to": "patong",
+    "mode": "road",
+    "bend": 20
+   },
+   {
+    "from": "patong",
+    "to": "rassada",
+    "mode": "road",
+    "bend": 14
+   },
+   {
+    "from": "rassada",
+    "to": "klong",
+    "mode": "sea",
+    "bend": -70
+   },
+   {
+    "from": "klong",
+    "to": "aonang",
+    "mode": "road",
+    "bend": 8
+   },
+   {
+    "from": "aonang",
+    "to": "phiphi",
+    "mode": "sea",
+    "bend": -40
+   },
+   {
+    "from": "phiphi",
+    "to": "rassada",
+    "mode": "sea",
+    "bend": -60
+   },
+   {
+    "from": "rassada",
+    "to": "oldtown",
+    "mode": "road",
+    "bend": 4
+   },
+   {
+    "from": "oldtown",
+    "to": "kamala",
+    "mode": "road",
+    "bend": -22
+   },
+   {
+    "from": "kamala",
+    "to": "hkt",
+    "mode": "road",
+    "bend": -14
+   }
+  ],
+  "texts": [
+   {
+    "text": "Andaman Sea",
+    "lat": 7.71,
+    "lon": 98.1,
+    "kind": "sea"
+   },
+   {
+    "text": "Phang Nga Bay",
+    "lat": 8.02,
+    "lon": 98.47,
+    "kind": "sea",
+    "hide_narrow": true
+   },
+   {
+    "text": "PHUKET",
+    "lat": 8.05,
+    "lon": 98.37,
+    "kind": "region"
+   },
+   {
+    "text": "KRABI",
+    "lat": 8.22,
+    "lon": 99.02,
+    "kind": "region"
+   }
+  ],
+  "decor": [
+   {
+    "type": "peaks",
+    "lat": 8.12,
+    "lon": 98.53,
+    "scale": 1.1
+   },
+   {
+    "type": "peaks",
+    "lat": 7.9,
+    "lon": 98.62,
+    "scale": 0.8
+   },
+   {
+    "type": "peaks",
+    "lat": 7.8,
+    "lon": 98.98,
+    "scale": 0.9
+   },
+   {
+    "type": "plane",
+    "lat": 8.139,
+    "lon": 98.277
+   },
+   {
+    "type": "flag",
+    "lat": 7.7,
+    "lon": 98.817
+   }
+  ]
+ },
+ "journey": {
+  "start": {
+   "title": "Land at Phuket airport",
+   "sub": "Tue 17 · four at 11:35–11:40, Rohan at 20:00",
+   "icon": "plane"
+  },
+  "stops": [
+   {
+    "name": "Patong",
+    "short": "Patong",
+    "stay": "Mad Monkey Phuket",
+    "dates": "Tue 17 – Wed 18 Nov",
+    "nights": "1 night",
+    "map_query": "Mad Monkey Phuket Patong",
+    "first_day": 1
+   },
+   {
+    "name": "Ao Nang, Krabi",
+    "short": "Ao Nang",
+    "stay": "Nomads Ao Nang",
+    "dates": "Wed 18 – Fri 20 Nov",
+    "nights": "2 nights",
+    "map_query": "Nomads Ao Nang Krabi",
+    "first_day": 2
+   },
+   {
+    "name": "Koh Phi Phi",
+    "short": "Koh Phi Phi",
+    "stay": "Bayview Resort",
+    "dates": "Fri 20 – Sun 22 Nov",
+    "nights": "2 nights",
+    "map_query": "Phi Phi Bayview Resort",
+    "first_day": 4
+   },
+   {
+    "name": "Kamala, Phuket",
+    "short": "Kamala",
+    "stay": "Zenmaya Oceanfront",
+    "dates": "Sun 22 – Tue 24 Nov",
+    "nights": "2 nights",
+    "map_query": "Zenmaya Oceanfront Phuket Kamala",
+    "first_day": 6
+   }
+  ],
+  "legs": [
+   {
+    "icon": "boat",
+    "when": "Wed 18 · 13:30",
+    "what": "Ferry, Rassada Pier → Klong Jilad, then van",
+    "duration": "~2 h 30"
+   },
+   {
+    "icon": "boat",
+    "when": "Fri 20 · 13:30",
+    "what": "Ferry, Ao Nang Pier → Tonsai Pier",
+    "duration": "~2 h"
+   },
+   {
+    "icon": "boat",
+    "when": "Sun 22 · 10:30",
+    "what": "Ferry to Rassada, then a van via Old Town",
+    "duration": "~2 h"
+   }
+  ],
+  "end": {
+   "title": "Fly home",
+   "sub": "Mon 23 · Kabir, Dev 12:30 · Tue 24 · Rohan 11:00, Arjun 12:40, Sam 20:40",
+   "icon": "plane"
+  }
+ },
+ "areas": {
+  "patong": "Patong",
+  "kamala": "Kamala",
+  "oldtown": "Phuket Old Town",
+  "north": "North Phuket",
+  "south": "South Phuket",
+  "aonang": "Ao Nang, Krabi",
+  "phiphi": "Koh Phi Phi"
+ },
+ "days": [
+  {
+   "date": "2026-11-17",
+   "label": "Tue 17 Nov",
+   "title": "Land, regroup, wait for Rohan",
+   "sleep": "Patong, Mad Monkey",
+   "area": "patong",
+   "tip": "Keep the afternoon quiet. Tonight is the first time all five of you are in one place.",
+   "rows": [
+    {
+     "time": "11:35",
+     "act": "Kolkata trio land at Phuket (CCU dep 07:00)",
+     "loc": "Phuket Intl Airport",
+     "who": "Sam, Kabir, Dev",
+     "note": "Booked. Immigration can take 45-60 min at peak",
+     "pdf_act": "Kolkata trio land at Phuket"
+    },
+    {
+     "time": "11:40",
+     "act": "Arjun lands at Phuket (BLR dep 06:15 IST)",
+     "loc": "Phuket Intl Airport",
+     "who": "Arjun",
+     "note": "Booked. Lands 5 min after the Kolkata group — meet at arrivals",
+     "pdf_act": "Arjun lands at Phuket"
+    },
+    {
+     "time": "12:15",
+     "act": "Regroup: tourist SIM + change ~50 USD",
+     "loc": "Phuket Intl Airport",
+     "note": "Airport rates are poor — change the rest at SuperRich or the Patong booths",
+     "pdf_act": "Regroup: tourist SIM + change ~50 USD"
+    },
+    {
+     "time": "13:00",
+     "act": "Shared minivan or Grab to Patong",
+     "loc": "Patong, Phuket",
+     "note": "45-60 min. Shared van ~200-250 THB pp, private taxi ~800-1,000 THB per car",
+     "pdf_act": "Shared minivan or Grab to Patong"
+    },
+    {
+     "time": "14:00",
+     "act": "Check in at Mad Monkey Phuket",
+     "key": true,
+     "loc": "Patong, Phuket",
+     "note": "Booked 17-19 Nov. Walkable to Bangla, pool bar, nightly pub crawl",
+     "pdf_act": "Check in at Mad Monkey Phuket"
+    },
+    {
+     "time": "14:30",
+     "act": "Late lunch at Kaab Gluay",
+     "key": true,
+     "loc": "Patong, Phuket",
+     "note": "Pad thai and Thai staples, 5 min from the hostel, open until 2 am. The afternoon stays low-key on purpose — nothing famous until Rohan is here",
+     "pdf_act": "Late lunch at Kaab Gluay"
+    },
+    {
+     "time": "15:30",
+     "act": "Patong Beach — swim and sunbeds",
+     "key": true,
+     "loc": "Patong Beach",
+     "note": "From your list. Sunbed and umbrella ~100-200 THB for the afternoon, coconuts from the vendors",
+     "pdf_act": "Patong Beach — swim and sunbeds"
+    },
+    {
+     "time": "17:00",
+     "act": "Shops: Jungceylon mall + Malin Plaza",
+     "loc": "Patong, Phuket",
+     "note": "Jungceylon is air-con, phone and forex counters, Big C for snacks and beer. Malin Plaza next door is the street-food and clothes market, open from 2 pm",
+     "pdf_act": "Shops: Jungceylon mall + Malin Plaza"
+    },
+    {
+     "time": "18:00",
+     "act": "Sunset drinks at Kee Sky Lounge rooftop",
+     "key": true,
+     "loc": "Thaweewong Rd, Patong",
+     "note": "360-degree rooftop over Patong Bay, Google 4.6. Sunset is ~6:10 pm. (Your 'Oscar sports bar' doesn't exist under that name — Aussie Bar on Bangla is the famous sports bar, but it rates 4.3)",
+     "pdf_act": "Sunset drinks at Kee Sky Lounge rooftop"
+    },
+    {
+     "time": "20:00",
+     "act": "Rohan lands (MEL dep 15:15)",
+     "loc": "Phuket Intl Airport",
+     "who": "Rohan",
+     "note": "Booked. Pre-book a Grab or the hostel pickup — in Patong by ~9:15 pm",
+     "pdf_act": "Rohan lands"
+    },
+    {
+     "time": "21:30",
+     "act": "First dinner, all five — Dang Restaurant",
+     "key": true,
+     "loc": "Patong, Phuket",
+     "note": "Open until 23:30, a few minutes from Bangla. Crab fried rice, yellow curry, tom yum",
+     "pdf_act": "First dinner, all five — Dang Restaurant"
+    },
+    {
+     "time": "23:00",
+     "act": "Bangla Road, then Illuzion",
+     "key": true,
+     "loc": "Bangla Road, Patong",
+     "note": "Your one walkable Bangla night — make it count. Mad Monkey's own pub crawl is the cheap way in",
+     "pdf_act": "Bangla Road, then Illuzion"
+    }
+   ],
+   "spots": [
+    "kaab-gluay",
+    "patong-beach",
+    "jungceylon",
+    "malin-plaza",
+    "kee-sky",
+    "dang",
+    "bangla",
+    "illuzion"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "label": "Wed 18 Nov",
+   "title": "Shooting range in Patong, afternoon ferry to Krabi",
+   "sleep": "Ao Nang, Nomads",
+   "area": "aonang",
+   "tip": "The range opens at 10:30 and you need to leave Patong by noon — book the slot on Klook the night before.",
+   "rows": [
+    {
+     "time": "08:30",
+     "act": "Breakfast at Uncle Joe",
+     "key": true,
+     "loc": "Patong, Phuket",
+     "note": "French toast, waffles, proper coffee. Open 08:00-17:00",
+     "pdf_act": "Breakfast at Uncle Joe"
+    },
+    {
+     "time": "09:30",
+     "act": "Pack, keep the room as a base",
+     "loc": "Patong, Phuket",
+     "note": "Mad Monkey is booked through the 19th — leave bags in the room while you shoot, shower before the ferry, and ask about crediting the unused night",
+     "pdf_act": "Pack, keep the room as a base"
+    },
+    {
+     "time": "10:30",
+     "act": "Patong Paragon Shooting Range",
+     "key": true,
+     "loc": "Patong Paragon Gun Shooting Range",
+     "note": "Opens 10:30, right by Bangla Road — a 5 min walk. Book on Klook at least an hour ahead and bring passports (or a passport photo). Packages mix 9mm, .22 and .38, 10 rounds each. Done by ~11:45",
+     "pdf_act": "Patong Paragon Shooting Range"
+    },
+    {
+     "time": "12:00",
+     "act": "Taxi Patong to Rassada Pier",
+     "loc": "Rassada Pier, Phuket Town",
+     "note": "~45 min, ~800-1,000 THB per car. Leave a buffer — you can't miss this one",
+     "pdf_act": "Taxi Patong to Rassada Pier"
+    },
+    {
+     "time": "13:30",
+     "act": "Ferry Phuket to Krabi",
+     "key": true,
+     "loc": "Rassada to Klong Jilad",
+     "note": "Confirm the Slot — afternoon sailings vary by season. 1h15-2h, ~800-1,100 THB pp",
+     "pdf_act": "Ferry Phuket to Krabi"
+    },
+    {
+     "time": "15:30",
+     "act": "Klong Jilad Pier, van to Ao Nang",
+     "loc": "Krabi to Ao Nang",
+     "note": "~30 min, ~150-200 THB pp",
+     "pdf_act": "Klong Jilad Pier, van to Ao Nang"
+    },
+    {
+     "time": "16:30",
+     "act": "Check in at Nomads Ao Nang",
+     "key": true,
+     "loc": "Ao Nang, Krabi",
+     "note": "Booked 18-20 Nov. Bar, pool, beach on the doorstep",
+     "pdf_act": "Check in at Nomads Ao Nang"
+    },
+    {
+     "time": "18:00",
+     "act": "Ao Nang sunset — and book tomorrow",
+     "loc": "Ao Nang Beach",
+     "note": "Tonight: lock in the morning option and the 4 Islands sunset tour. Both are cheaper booked locally",
+     "pdf_act": "Ao Nang sunset — and book tomorrow"
+    },
+    {
+     "time": "19:30",
+     "act": "Dinner at Jungle Kitchen",
+     "key": true,
+     "loc": "Ao Nang, Krabi",
+     "note": "Proper Thai for sharing, Google 4.7 from 2,000 reviews. The Landmark night market is a 5 min walk if you want a wander after",
+     "pdf_act": "Dinner at Jungle Kitchen"
+    },
+    {
+     "time": "21:30",
+     "act": "Bamboo Beach Club",
+     "key": true,
+     "loc": "Ao Nang Beach",
+     "note": "Dj sets and fire shows on the sand, Google 4.7. Tribe Beach Bar (4.6) is the smaller, clubbier alternative",
+     "pdf_act": "Bamboo Beach Club"
+    }
+   ],
+   "spots": [
+    "uncle-joe",
+    "patong-range",
+    "jungle-kitchen",
+    "landmark-market",
+    "bamboo-beach",
+    "tribe-beach"
+   ],
+   "book": [
+    {
+     "label": "Patong range on Klook",
+     "url": "https://www.klook.com/activity/144078-patong-paragon-gun-shooting-range-in-phuket/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "label": "Thu 19 Nov",
+   "title": "Your pick of morning, four islands at sunset",
+   "sleep": "Ao Nang, Nomads",
+   "area": "aonang",
+   "tip": "Island pickups run 12:00-12:50. Whatever you choose for the morning, be back in Ao Nang by 11:30.",
+   "rows": [
+    {
+     "time": "07:00",
+     "act": "Optional: Tiger Cave Temple at dawn — or another morning below",
+     "loc": "Tiger Cave Temple, Krabi",
+     "note": "1,260 steps, about an hour up; go at first light before the heat. Or kayak, ATV, the elephant shelter, or a slow morning — all in the options. Back in Ao Nang by ~11:30 for the 12:15 pickup",
+     "pdf_act": "Optional: Tiger Cave Temple at dawn — or another morning below"
+    },
+    {
+     "time": "11:00",
+     "act": "Back in Ao Nang, quick lunch at Ton Ma Yom",
+     "loc": "Ao Nang, Krabi",
+     "note": "Home-style Thai, most mains under 150 THB. Dinner is on the boat",
+     "pdf_act": "Back in Ao Nang, quick lunch at Ton Ma Yom"
+    },
+    {
+     "time": "12:15",
+     "act": "Pickup — 7 Islands Sunset + BBQ + Plankton",
+     "key": true,
+     "loc": "Nopparat Thara Pier, Ao Nang",
+     "note": "Klook emails the exact pickup time. Longtail or speedboat — pick longtail. Or the Hong Island version — both are on the board below",
+     "pdf_act": "Pickup — 7 Islands Sunset + BBQ + Plankton"
+    },
+    {
+     "time": "13:00",
+     "act": "Yawasom snorkel, Chicken Island, Tup-Mor sandbar, Tang Ming",
+     "loc": "Krabi islands",
+     "note": "The sandbar walk between Tup and Mor only appears at low tide",
+     "pdf_act": "Yawasom snorkel, Chicken Island, Tup-Mor sandbar, Tang Ming"
+    },
+    {
+     "time": "17:30",
+     "act": "Sunset BBQ dinner on Koh Poda",
+     "loc": "Koh Poda, Krabi",
+     "note": "Thai buffet dinner included",
+     "pdf_act": "Sunset BBQ dinner on Koh Poda"
+    },
+    {
+     "time": "19:00",
+     "act": "Night swim with bioluminescent plankton off Koh Raeng",
+     "loc": "Krabi islands",
+     "note": "Weather permitting. Bring cash for the national park fee, ~300-400 THB pp",
+     "pdf_act": "Night swim with bioluminescent plankton off Koh Raeng"
+    },
+    {
+     "time": "20:30",
+     "act": "Rooftop drinks at Sea Salt",
+     "key": true,
+     "loc": "Phranang Place, Ao Nang",
+     "note": "Sixth-floor rooftop bar and grill, Google 4.7. Muay Thai at Ao Nang stadium instead if anyone still has legs",
+     "pdf_act": "Rooftop drinks at Sea Salt"
+    }
+   ],
+   "spots": [
+    "tiger-cave",
+    "ton-ma-yom",
+    "four-islands",
+    "sea-salt"
+   ],
+   "options": [
+    {
+     "label": "Morning",
+     "items": [
+      {
+       "name": "Tiger Cave Temple",
+       "time": "07:00 — 10:30",
+       "effort": "Hard",
+       "price": "Free entry. Car ~1,200-1,500 THB return, split 5",
+       "note": "The one you asked for: 1,260 steps, about an hour up. Dawn only — after 9 am the heat is brutal. 2 L of water each, trainers.",
+       "q": "Tiger Cave Temple Krabi",
+       "pick": true
+      },
+      {
+       "name": "Ao Thalane mangrove kayaking",
+       "time": "Up to 3 hrs, morning",
+       "effort": "Medium",
+       "price": "From ~US$25 on Klook",
+       "rating": "4.8 (249 reviews)",
+       "note": "Calm-water paddling through limestone and mangroves.",
+       "q": "Ao Thalane mangrove kayaking Krabi",
+       "url": "https://www.klook.com/destination/c63-krabi/1001-tours/",
+       "url_label": "Book on Klook"
+      },
+      {
+       "name": "Krabi Elephant Shelter",
+       "time": "Morning, up to 3 hrs",
+       "effort": "Easy",
+       "price": "From ~US$23 on Klook",
+       "rating": "4.9 (225 reviews)",
+       "note": "Feeding and care, no riding. The highest-rated morning option on Klook.",
+       "q": "Krabi Elephant Shelter Krabi",
+       "url": "https://www.klook.com/destination/c63-krabi/1001-tours/",
+       "url_label": "Book on Klook"
+      },
+      {
+       "name": "ATV Extreme, Ao Nam Mao",
+       "time": "Up to 3 hrs",
+       "effort": "Easy, loud, fun",
+       "price": "From ~US$27 on Klook",
+       "rating": "4.6 (54 reviews)",
+       "note": "10 min from Ao Nang. Book the earliest slot so you're back for the pickup.",
+       "q": "ATV Extreme, Ao Nam Mao Krabi",
+       "url": "https://www.klook.com/destination/c63-krabi/1030-atv/",
+       "url_label": "Book on Klook"
+      },
+      {
+       "name": "Slow morning",
+       "time": "Whenever",
+       "effort": "None",
+       "price": "Free",
+       "note": "Breakfast, Ao Nang beach, a Thai massage. Saves the legs for the boat.",
+       "q": "Slow morning Krabi"
+      }
+     ]
+    },
+    {
+     "label": "Island tour",
+     "items": [
+      {
+       "name": "7 Islands sunset + BBQ + plankton",
+       "time": "~12:30 — 20:00",
+       "price": "From ~US$40 on Klook",
+       "rating": "4.5 (982 reviews), 20K+ booked",
+       "note": "Yawasom, Chicken, Tup-Mor sandbar, Tang Ming, sunset dinner on Poda, plankton swim at Koh Raeng. Longtail or speedboat.",
+       "url": "https://www.klook.com/activity/77264-join-7-islands-sunset-tour-bbq-dinner-krabi-bioluminescent-plankton/",
+       "url_label": "Book on Klook",
+       "pick": true
+      },
+      {
+       "name": "Hong Island sunset + BBQ + plankton",
+       "time": "Pickup 12:00-12:50, back 19:30-20:00",
+       "price": "From ~US$62 on Klook, +300 THB park fee",
+       "rating": "4.4 (86 reviews)",
+       "note": "Hong lagoon, Pakbia sandbar, plankton. The Hong 360 viewpoint is 420-450 steps — skippable. Needs 6 to run; it's join-in, so others fill it.",
+       "url": "https://www.klook.com/activity/77402-join-hong-island-sunset-tour-bbq-dinner-krabi-bioluminescent-plankton/",
+       "url_label": "Book on Klook"
+      },
+      {
+       "name": "Standard 4 Islands day tour",
+       "time": "Morning to mid-afternoon",
+       "price": "From ~US$27 on Klook",
+       "rating": "4.7 (3.1K reviews)",
+       "note": "Cheapest and most reviewed — but it uses up the morning, so no Tiger Cave.",
+       "url": "https://www.klook.com/destination/c63-krabi/1001-tours/",
+       "url_label": "Book on Klook"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "label": "Fri 20 Nov",
+   "title": "Railay, ferry to Phi Phi, birthday eve",
+   "sleep": "Koh Phi Phi, Bayview",
+   "area": "phiphi",
+   "tip": "Loh Dalum is tidal — swim at high tide only. Agree the walk back to Bayview before midnight.",
+   "rows": [
+    {
+     "time": "08:30",
+     "act": "Railay by longtail — or yesterday's other option",
+     "key": true,
+     "loc": "Railay, Krabi",
+     "note": "15 min from Ao Nang, ~150 THB pp each way. Railay West, then a flat walk to Phra Nang Cave Beach — Krabi's best. If you skipped Tiger Cave yesterday, it fits here instead",
+     "pdf_act": "Railay by longtail — or yesterday's other option"
+    },
+    {
+     "time": "11:00",
+     "act": "Back to Ao Nang, checkout from Nomads",
+     "loc": "Ao Nang, Krabi",
+     "note": "Leave bags at the hostel while you eat",
+     "pdf_act": "Back to Ao Nang, checkout from Nomads"
+    },
+    {
+     "time": "12:00",
+     "act": "Lunch, then to the pier",
+     "loc": "Ao Nang Pier",
+     "note": "Most places drop you at the pier if you book the ferry through them",
+     "pdf_act": "Lunch, then to the pier"
+    },
+    {
+     "time": "13:30",
+     "act": "Ferry Ao Nang to Koh Phi Phi",
+     "key": true,
+     "loc": "Ao Nang to Tonsai",
+     "note": "~2 hrs, ~650 THB pp. Confirm the Slot — 09:30 is the one confirmed daily sailing",
+     "pdf_act": "Ferry Ao Nang to Koh Phi Phi"
+    },
+    {
+     "time": "15:30",
+     "act": "Tonsai: island fee, check in at Bayview Resort",
+     "key": true,
+     "loc": "Tonsai, Koh Phi Phi",
+     "note": "Booked 20-22 Nov, 2 rooms. Small pier fee (20 THB) in cash as you step off. Bayview is on the headland — 10-15 min walk to the village, or the resort shuttle boat",
+     "pdf_act": "Tonsai: island fee, check in at Bayview Resort"
+    },
+    {
+     "time": "17:00",
+     "act": "Sunset: Phi Phi Viewpoint climb or Loh Dalum beach",
+     "loc": "Phi Phi Viewpoint",
+     "note": "Both are in the options below. The viewpoint stairs start on the east side of Tonsai; Loh Dalum is a flat walk",
+     "pdf_act": "Sunset: Phi Phi Viewpoint climb or Loh Dalum beach"
+    },
+    {
+     "time": "19:30",
+     "act": "Birthday-eve dinner at Efe",
+     "loc": "Tonsai Village",
+     "note": "Mediterranean grill built for sharing, Google 4.7. Anna's (4.7, European-Thai) is the alternative",
+     "pdf_act": "Birthday-eve dinner at Efe"
+    },
+    {
+     "time": "21:30",
+     "act": "Reggae Bar — the Muay Thai ring",
+     "key": true,
+     "loc": "Tonsai Village",
+     "note": "Fights every night, and drunk volunteers get in the ring for free drinks. Watch or volunteer — your call",
+     "pdf_act": "Reggae Bar — the Muay Thai ring"
+    },
+    {
+     "time": "23:30",
+     "act": "Midnight countdown for Rohan on Loh Dalum",
+     "loc": "Loh Dalum Beach",
+     "note": "The fire shows run the length of the beach. Sort the walk back to Bayview before you start",
+     "pdf_act": "Midnight countdown for Rohan on Loh Dalum"
+    }
+   ],
+   "spots": [
+    "railay",
+    "phra-nang",
+    "phiphi-viewpoint",
+    "efe",
+    "annas",
+    "reggae-bar",
+    "loh-dalum"
+   ],
+   "options": [
+    {
+     "label": "Sunset",
+     "items": [
+      {
+       "name": "Phi Phi Viewpoint 1 + 2 at sunset",
+       "time": "16:45 — 18:45",
+       "effort": "Steep stairs, 20-30 min up",
+       "price": "50 THB pp (+20 THB for Viewpoint 3)",
+       "note": "Stairs start on the east side of Tonsai — follow the Viewpoint / tsunami evacuation signs. Viewpoint 2 is the classic shot; 3 is 15 min higher and quieter at sunset. Bring a torch for the way down. No alcohol at the top",
+       "q": "Phi Phi Viewpoint 2",
+       "pick": true
+      },
+      {
+       "name": "Loh Dalum Bay sunset",
+       "time": "17:30 — 18:30",
+       "effort": "Easy",
+       "price": "Free",
+       "note": "Flat walk from the village and first drinks on the sand. Swim only at high tide",
+       "q": "Loh Dalum Bay Koh Phi Phi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "label": "Sat 21 Nov",
+   "title": "Pirate boat day",
+   "sleep": "Koh Phi Phi, Bayview",
+   "area": "phiphi",
+   "tip": "Carry cash onto the boat: the 1,900 THB balance plus the bar. Book dinner for 9 pm, not earlier.",
+   "rows": [
+    {
+     "time": "09:30",
+     "act": "Birthday brunch at the Mango Garden",
+     "key": true,
+     "loc": "Tonsai Village",
+     "note": "A minute from the pier, Google 4.8 from 3,600 reviews — the best breakfast on the island by most accounts. Qoori Qoori (4.8) if you want a sea view",
+     "pdf_act": "Birthday brunch at the Mango Garden"
+    },
+    {
+     "time": "11:15",
+     "act": "Walk to Relax Bar — check in by 11:30",
+     "key": true,
+     "loc": "Tonsai, Koh Phi Phi",
+     "note": "Pirate boat meeting point; the group walks to the boat together. Bring cash: the 1,900 THB balance is paid on board",
+     "pdf_act": "Walk to Relax Bar — check in by 11:30"
+    },
+    {
+     "time": "11:30",
+     "act": "Phi Phi Pirate Boat — booked",
+     "key": true,
+     "loc": "Phi Phi Leh",
+     "note": "Maya Bay (~1 hr), Pileh Lagoon, Viking Cave, Monkey Beach, Loh Samah — the order shifts with the tide. Kayaks, paddleboards, snorkelling, and jumps off a 7 m board on the top deck. Thai fried rice and fruit on board. Drinks are not included — there is a bar on board, so bring cash. Maya Bay park fee is included",
+     "pdf_act": "Phi Phi Pirate Boat — booked"
+    },
+    {
+     "time": "18:00",
+     "act": "Sunset on the water",
+     "loc": "Phi Phi Leh",
+     "note": "Dinner on board at sunset",
+     "pdf_act": "Sunset on the water"
+    },
+    {
+     "time": "19:30",
+     "act": "Back at Tonsai",
+     "loc": "Tonsai, Koh Phi Phi",
+     "note": "The operator says ~7:30 pm, not 7:00. Change at Bayview",
+     "pdf_act": "Back at Tonsai"
+    },
+    {
+     "time": "21:00",
+     "act": "Birthday Dinner at Pirates House",
+     "key": true,
+     "loc": "Tonsai Pier",
+     "note": "Open-air restaurant and cocktail bar with live music, Google 4.6 from 5,400 reviews. Book a table for five before the boat",
+     "pdf_act": "Birthday Dinner at Pirates House"
+    },
+    {
+     "time": "22:30",
+     "act": "Birthday night at Sunflower Beach Bar, then the beach",
+     "key": true,
+     "loc": "Loh Dalum Beach",
+     "note": "Bar on the sand with cliff views, Google 4.5. Then the Loh Dalum fire shows. All walkable",
+     "pdf_act": "Birthday night at Sunflower Beach Bar, then the beach"
+    }
+   ],
+   "spots": [
+    "mango-garden",
+    "qoori",
+    "relax-bar",
+    "maya-bay",
+    "pirates-house",
+    "sunflower",
+    "loh-dalum"
+   ],
+   "badge": "Rohan’s birthday"
+  },
+  {
+   "date": "2026-11-22",
+   "label": "Sun 22 Nov",
+   "title": "Pool afternoon, Kamala sunset, Sunday night in Old Town",
+   "sleep": "Kamala, Zenmaya",
+   "area": "kamala",
+   "tip": "Sunset on Kamala at 6, Old Town by 7:30. Lard Yai packs up at 10, so eat first and drink after.",
+   "rows": [
+    {
+     "time": "07:00",
+     "act": "Optional: Phi Phi Viewpoint 1 + 2 before the ferry",
+     "loc": "Phi Phi Viewpoint",
+     "who": "Early risers",
+     "note": "Cooler and quieter than sunset, good light around 8. Sunrise is ~06:20 but comes up behind the viewpoint. Back down by 9:00",
+     "pdf_act": "Optional: Phi Phi Viewpoint 1 + 2 before the ferry"
+    },
+    {
+     "time": "09:00",
+     "act": "Breakfast, pack, settle Bayview",
+     "loc": "Koh Phi Phi",
+     "pdf_act": "Breakfast, pack, settle Bayview"
+    },
+    {
+     "time": "10:30",
+     "act": "Ferry Phi Phi to Phuket",
+     "key": true,
+     "loc": "Tonsai to Rassada",
+     "note": "1.5-2 hrs, 450-630 THB pp on the big ferry",
+     "pdf_act": "Ferry Phi Phi to Phuket"
+    },
+    {
+     "time": "12:30",
+     "act": "Rassada Pier — van to Kamala via Old Town",
+     "loc": "Rassada Pier, Phuket Town",
+     "note": "One van for five plus bags, ~1,000-1,500 THB. Ask the driver to wait 45 min at Toy-Tor-Toe on the way",
+     "pdf_act": "Rassada Pier — van to Kamala via Old Town"
+    },
+    {
+     "time": "12:45",
+     "act": "Lunch at Toy-Tor-Toe",
+     "loc": "Thepkrasattri Rd, Phuket Old Town",
+     "note": "10 min from the pier. Tom yum prawn noodles with crispy pork lard, mee nam, pork ribs. Cash only",
+     "pdf_act": "Lunch at Toy-Tor-Toe"
+    },
+    {
+     "time": "14:00",
+     "act": "Check in at Zenmaya Oceanfront — private pool room",
+     "key": true,
+     "loc": "Zenmaya Oceanfront Phuket Kamala",
+     "note": "Booked. Check-in from 14:00, 40 min from Old Town. Kabir + Dev 1 night; Arjun, Rohan, Sam 2 nights",
+     "pdf_act": "Check in at Zenmaya Oceanfront — private pool room"
+    },
+    {
+     "time": "14:30",
+     "act": "Pool, nap, nothing",
+     "loc": "Zenmaya Oceanfront Phuket Kamala",
+     "note": "The afternoon is free on purpose after four days on the move. Breezes Pool Bar is downstairs if anyone wants a drink",
+     "pdf_act": "Pool, nap, nothing"
+    },
+    {
+     "time": "17:30",
+     "act": "Kamala Beach sunset — all five",
+     "key": true,
+     "loc": "Kamala Beach",
+     "note": "Right below the hotel. Sun sets around 18:10; Smile Bar has tables on the sand if you want a beer in hand",
+     "pdf_act": "Kamala Beach sunset — all five"
+    },
+    {
+     "time": "18:45",
+     "act": "Grab or taxi to Old Town",
+     "loc": "Thalang Road, Phuket Old Town",
+     "note": "~40 min, ~700-900 THB for a van. Lard Yai runs 16:00-22:00, so go straight from the beach",
+     "pdf_act": "Grab or taxi to Old Town"
+    },
+    {
+     "time": "19:30",
+     "act": "Sunday Dinner on Lard Yai walking street",
+     "key": true,
+     "loc": "Thalang Road, Phuket Old Town",
+     "note": "Graze the street-food stalls on Thalang Rd, or sit down at Kopitiam by Wilai (pad thai, Google 4.6, open till 22:00) right on the street. Bonnee for mango sticky rice until 20:30",
+     "pdf_act": "Sunday Dinner on Lard Yai walking street"
+    },
+    {
+     "time": "21:30",
+     "act": "Cue Bar rooftop — live bands",
+     "loc": "Phang Nga Rd, Old Town",
+     "note": "Open Sundays, closed Mondays — tonight or never. Dibuk House (Google 4.8) round the corner if you want it quieter",
+     "pdf_act": "Cue Bar rooftop — live bands"
+    },
+    {
+     "time": "23:30",
+     "act": "Taxi back to Kamala",
+     "loc": "Zenmaya Oceanfront Phuket Kamala",
+     "note": "Book the ride before the market packs up at 22:00 — taxis thin out after",
+     "pdf_act": "Taxi back to Kamala"
+    }
+   ],
+   "spots": [
+    "toy-tor-toe",
+    "kamala-beach",
+    "smile-bar",
+    "lard-yai",
+    "kopitiam",
+    "bonnee",
+    "cue-bar",
+    "dibuk-house",
+    "naka"
+   ],
+   "options": [
+    {
+     "label": "Before the ferry",
+     "items": [
+      {
+       "name": "Phi Phi Viewpoint 1 + 2",
+       "time": "07:00 — 09:00",
+       "effort": "Steep stairs, 20-30 min up",
+       "price": "50 THB pp (+20 THB for Viewpoint 3)",
+       "note": "Cooler and quieter than sunset, best light around 8. Sunrise is ~06:20 but rises behind the viewpoint. Water and drinks are sold at the top",
+       "q": "Phi Phi Viewpoint 2"
+      },
+      {
+       "name": "Sleep in, breakfast at The Mango Garden",
+       "time": "08:30",
+       "effort": "Easy",
+       "rating": "4.8 Google",
+       "note": "After the birthday night, the honest choice",
+       "q": "The Mango Garden Koh Phi Phi",
+       "pick": true
+      }
+     ]
+    },
+    {
+     "label": "Afternoon",
+     "items": [
+      {
+       "name": "Stay by your pool",
+       "time": "14:30 — 17:30",
+       "effort": "Easy",
+       "note": "The plan. Breezes Pool Bar is downstairs if anyone wants a drink",
+       "q": "Zenmaya Oceanfront Phuket Kamala",
+       "pick": true
+      },
+      {
+       "name": "Zoo del Mar at Café del Mar",
+       "time": "13:00 — 19:00",
+       "effort": "On Kamala Beach",
+       "price": "Entry varies",
+       "note": "Poolside DJs and live acts — drop in before the sunset if anyone wants a party",
+       "q": "Cafe del Mar Phuket Kamala"
+      }
+     ]
+    },
+    {
+     "label": "Evening",
+     "items": [
+      {
+       "name": "Lard Yai + Kopitiam by Wilai",
+       "time": "19:30 — 22:00",
+       "effort": "40 min taxi",
+       "price": "Free entry",
+       "rating": "4.6 Google",
+       "note": "The plan: Sunday street food on Thalang Rd, a sit-down pad thai if you want one, Cue Bar after",
+       "q": "Kopitiam by Wilai Phuket",
+       "pick": true
+      },
+      {
+       "name": "Naka Weekend Market instead",
+       "time": "16:00 — 21:00",
+       "effort": "35 min taxi",
+       "price": "Free",
+       "note": "Bigger and more about shopping — shoes, clothes, electronics. Closes earlier",
+       "q": "Naka Weekend Market Phuket"
+      },
+      {
+       "name": "Stay in at Zenmaya",
+       "time": "Evening",
+       "effort": "Easy",
+       "note": "If the group is wrecked: Zeascape, the hotel's Thai restaurant, or L'Arome by the Sea (Google 4.7) nearby",
+       "q": "Zenmaya Oceanfront Phuket Kamala"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "label": "Mon 23 Nov",
+   "title": "Two fly home, three do the luge and Café del Mar",
+   "sleep": "Kamala, Zenmaya",
+   "area": "kamala",
+   "tip": "Kamala to Bangla is a taxi each way. Book the ride home before the night starts, not after.",
+   "rows": [
+    {
+     "time": "08:30",
+     "act": "Kabir + Dev check out, taxi to the airport",
+     "loc": "Kamala to Airport",
+     "who": "Kabir, Dev",
+     "note": "~50 min. Leave by 09:00 for the 12:30 flight",
+     "pdf_act": "Kabir + Dev check out, taxi to the airport"
+    },
+    {
+     "time": "08:30",
+     "act": "Breakfast on the sand at Lillo Island",
+     "key": true,
+     "loc": "Kamala Beach",
+     "who": "The three",
+     "note": "Opens 08:00, tables on the beach, Thai and American breakfast sets",
+     "pdf_act": "Breakfast on the sand at Lillo Island"
+    },
+    {
+     "time": "09:30",
+     "act": "Hanuman World — luge + zipline",
+     "key": true,
+     "loc": "Kathu, Phuket",
+     "who": "The three",
+     "note": "Gravity karts on 650 m and 1.2 km tracks, ~3 min a run. Luge kart from ~US$21 and ziplines from ~US$23 on Klook — book in the app the night before. ~25 min from Kamala. Go early, queues build after lunch",
+     "pdf_act": "Hanuman World — luge + zipline"
+    },
+    {
+     "time": "12:30",
+     "act": "Kabir + Dev fly to Kolkata / Bagdogra",
+     "loc": "Phuket Intl Airport",
+     "who": "Kabir, Dev",
+     "note": "Booked",
+     "pdf_act": "Kabir + Dev fly to Kolkata / Bagdogra"
+    },
+    {
+     "time": "13:30",
+     "act": "Lunch back in Kamala — Smile Bar",
+     "loc": "Kamala Beach",
+     "who": "The three",
+     "note": "Beachfront, charcoal-grilled chicken, cheap",
+     "pdf_act": "Lunch back in Kamala — Smile Bar"
+    },
+    {
+     "time": "15:00",
+     "act": "Laem Singh viewpoint, then Surin Beach",
+     "loc": "Kamala to Surin",
+     "who": "The three",
+     "note": "Laem Singh is a drive-up platform on the coast road; Surin is 10 min north and the best swimming on this stretch",
+     "pdf_act": "Laem Singh viewpoint, then Surin Beach"
+    },
+    {
+     "time": "17:30",
+     "act": "Café del Mar — sunset",
+     "key": true,
+     "loc": "Kamala Beach",
+     "who": "The three",
+     "note": "Asia's top-ranked beach club, 5 min from the hotel. Monday is the day-and-sunset crowd; the Clubroom only runs Wed-Sat. Reserve a sofa online",
+     "pdf_act": "Café del Mar — sunset"
+    },
+    {
+     "time": "20:00",
+     "act": "Dinner at Maru Korean BBQ",
+     "key": true,
+     "loc": "Patong",
+     "who": "The three",
+     "note": "Rat-U-Thit 200 Pi Rd. Last seating before 22:00",
+     "pdf_act": "Dinner at Maru Korean BBQ"
+    },
+    {
+     "time": "21:30",
+     "act": "Last night out: Bangla Road and Illuzion",
+     "key": true,
+     "loc": "Bangla Road, Patong",
+     "who": "The three",
+     "note": "Taxi each way from Kamala. Go lighter — two of you fly before 1 pm",
+     "pdf_act": "Last night out: Bangla Road and Illuzion"
+    }
+   ],
+   "spots": [
+    "lillo",
+    "hanuman",
+    "smile-bar",
+    "laem-singh",
+    "surin",
+    "cafe-del-mar",
+    "larome",
+    "maru",
+    "illuzion"
+   ],
+   "book": [
+    {
+     "label": "Hanuman luge on Klook",
+     "url": "https://www.klook.com/activity/224340-luge-kart-adventure-at-hanuman-world-in-phuket/"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "label": "Tue 24 Nov",
+   "title": "Departures",
+   "area": "kamala",
+   "tip": "Loy Krathong falls tonight by most sources — the lanterns go up as you leave.",
+   "rows": [
+    {
+     "time": "08:00",
+     "act": "Rohan + Arjun check out, taxi to the airport",
+     "loc": "Kamala to Airport",
+     "who": "Rohan, Arjun",
+     "note": "~50 min from Kamala",
+     "pdf_act": "Rohan + Arjun check out, taxi to the airport"
+    },
+    {
+     "time": "10:00",
+     "act": "Sam: late checkout, then Banana Beach",
+     "key": true,
+     "loc": "Banana Beach",
+     "who": "Sam",
+     "note": "North-west coast, roughly on the way to the airport. Use the new car park at the north end (100 THB) — the old hill path closed in 2025. Sunbeds fill by midday",
+     "pdf_act": "Sam: late checkout, then Banana Beach"
+    },
+    {
+     "time": "11:00",
+     "act": "Rohan flies to Melbourne",
+     "loc": "Phuket Intl Airport",
+     "who": "Rohan",
+     "note": "Booked",
+     "pdf_act": "Rohan flies to Melbourne"
+    },
+    {
+     "time": "12:40",
+     "act": "Arjun flies to Bangalore",
+     "loc": "Phuket Intl Airport",
+     "who": "Arjun",
+     "note": "Booked",
+     "pdf_act": "Arjun flies to Bangalore"
+    },
+    {
+     "time": "15:00",
+     "act": "Or instead: Central Phuket for a last shop",
+     "loc": "Central Phuket",
+     "who": "Sam",
+     "note": "The island's best mall, Floresta and Festival. Opposite direction from Banana Beach — pick one",
+     "pdf_act": "Or instead: Central Phuket for a last shop"
+    },
+    {
+     "time": "18:00",
+     "act": "Taxi to the airport",
+     "loc": "Phuket Intl Airport",
+     "who": "Sam",
+     "note": "Loy Krathong is tonight by most sources — expect krathong stalls and lanterns along Patong Beach on the way",
+     "pdf_act": "Taxi to the airport"
+    },
+    {
+     "time": "20:40",
+     "act": "Sam flies to Kolkata",
+     "loc": "Phuket Intl Airport",
+     "who": "Sam",
+     "note": "Booked",
+     "pdf_act": "Sam flies to Kolkata"
+    }
+   ],
+   "spots": [
+    "banana",
+    "central",
+    "smile-bar"
+   ]
+  }
+ ],
+ "places": [
+  {
+   "id": "dang",
+   "kind": "eat",
+   "name": "Dang Restaurant",
+   "area": "patong",
+   "type": "Thai",
+   "source": "list",
+   "what": "Crab fried rice, yellow curry, tom yum — a few minutes from Bangla",
+   "day": "Day 1 dinner",
+   "q": "Dang Restaurant Patong",
+   "rating": "4.5",
+   "reviews": "1,457",
+   "hours": "08:30–23:30"
+  },
+  {
+   "id": "kaab-gluay",
+   "kind": "eat",
+   "name": "Kaab Gluay",
+   "area": "patong",
+   "type": "Thai",
+   "source": "pick",
+   "what": "Sit-down Thai family restaurant — pad thai and the classics, open late",
+   "day": "Day 1 lunch",
+   "q": "Kaab Gluay Patong",
+   "rating": "4.5",
+   "reviews": "2,016",
+   "hours": "11:00–02:00"
+  },
+  {
+   "id": "uncle-joe",
+   "kind": "eat",
+   "name": "Uncle Joe Breakfast Cafe",
+   "area": "patong",
+   "type": "Breakfast",
+   "source": "list",
+   "what": "French toast, waffles, eggs, flat whites",
+   "day": "Day 2 breakfast",
+   "q": "Uncle Joe Breakfast and Coffee bar Patong",
+   "hours": "08:00–17:00"
+  },
+  {
+   "id": "kee-sky",
+   "kind": "eat",
+   "name": "Kee Sky Lounge",
+   "area": "patong",
+   "type": "Rooftop bar",
+   "source": "pick",
+   "what": "360-degree rooftop over Patong Bay — the sunset drink on night one",
+   "day": "Day 1 sunset",
+   "q": "Kee Sky Lounge Patong",
+   "rating": "4.6",
+   "reviews": "614",
+   "hours": "Evenings"
+  },
+  {
+   "id": "maru",
+   "kind": "eat",
+   "name": "Maru Korean BBQ",
+   "area": "patong",
+   "type": "Korean BBQ",
+   "source": "list",
+   "what": "Grill-it-yourself Korean BBQ on Rat-U-Thit 200 Pi Rd",
+   "day": "Day 7 dinner",
+   "q": "Maru Korean BBQ Patong Phuket",
+   "rating": "4.5",
+   "reviews": "805",
+   "hours": "12:00–22:00"
+  },
+  {
+   "id": "illuzion",
+   "kind": "eat",
+   "name": "Illuzion",
+   "area": "patong",
+   "type": "Club",
+   "source": "list",
+   "what": "The big club on Bangla",
+   "day": "Days 1 and 7",
+   "q": "Illuzion Phuket",
+   "rating": "4.4",
+   "reviews": "8,245",
+   "hours": "Late"
+  },
+  {
+   "id": "lillo",
+   "kind": "eat",
+   "name": "Lillo Island Restaurant & Bar",
+   "area": "kamala",
+   "type": "Beach cafe",
+   "source": "list",
+   "what": "Breakfast on the sand, seafood on ice grilled to order",
+   "day": "Day 7 breakfast",
+   "q": "Lillo Island Restaurant Kamala",
+   "hours": "08:00–23:00"
+  },
+  {
+   "id": "smile-bar",
+   "kind": "eat",
+   "name": "Smile Bar",
+   "area": "kamala",
+   "type": "Beach bar",
+   "source": "list",
+   "what": "Charcoal-grilled chicken, tables on the sand, fire show some nights",
+   "day": "Day 7 lunch",
+   "q": "Smile Bar Kamala Beach",
+   "hours": "10:00–00:00"
+  },
+  {
+   "id": "cafe-del-mar",
+   "kind": "eat",
+   "name": "Café del Mar",
+   "area": "kamala",
+   "type": "Beach club",
+   "source": "list",
+   "what": "Dj Mag top-100 beach club — sunset sessions, pool, DJs. Clubroom Wed-Sat only",
+   "day": "Day 7 sunset",
+   "q": "Cafe del Mar Phuket Kamala",
+   "hours": "11:00–late"
+  },
+  {
+   "id": "larome",
+   "kind": "eat",
+   "name": "L'Arome by the Sea",
+   "area": "kamala",
+   "type": "French fine dining",
+   "source": "pick",
+   "what": "Sunset deck for cocktails over Kalim Bay, minutes from Zenmaya. The splurge",
+   "day": "Day 7 alt",
+   "q": "L'Arome by the sea Kalim Patong",
+   "rating": "4.7",
+   "reviews": "1,325",
+   "hours": "Evenings"
+  },
+  {
+   "id": "toy-tor-toe",
+   "kind": "eat",
+   "name": "Toy-Tor-Toe",
+   "area": "oldtown",
+   "type": "Prawn noodles",
+   "source": "list",
+   "what": "Tom yum prawn noodles with crispy pork lard, mee nam, pork ribs. Cash only",
+   "day": "Day 6 lunch",
+   "q": "TOY-TOR-TOE Thepkrasattri Road Phuket",
+   "hours": "09:00–19:00"
+  },
+  {
+   "id": "bonnee",
+   "kind": "eat",
+   "name": "Bonnee Brunch & Blends",
+   "area": "oldtown",
+   "type": "Cafe",
+   "source": "list",
+   "what": "Your 'Bonnee mango' — mango sticky rice and smoothies on Soi Romanee",
+   "day": "Day 6",
+   "q": "BONNEE Brunch and Blends Rommanee Road Phuket",
+   "rating": "4.8",
+   "reviews": "422",
+   "hours": "10:00–20:30 Sun"
+  },
+  {
+   "id": "little-phuket",
+   "kind": "eat",
+   "name": "Little Phuket",
+   "area": "oldtown",
+   "type": "Thai",
+   "source": "list",
+   "what": "Thai classics — in Old Town, not Ao Nang",
+   "day": "Day 6",
+   "q": "Little Phuket restaurant Talat Yai Phuket Town",
+   "rating": "4.6",
+   "reviews": "1,332",
+   "hours": "12:00–00:30"
+  },
+  {
+   "id": "kopitiam",
+   "kind": "eat",
+   "name": "Kopitiam by Wilai",
+   "area": "oldtown",
+   "type": "Thai cafe",
+   "source": "pick",
+   "what": "One of the best pad thais on the island, right on Thalang Rd",
+   "day": "Day 6 dinner",
+   "q": "Kopitiam by Wilai Thalang Road Phuket",
+   "rating": "4.6",
+   "reviews": "1,617",
+   "hours": "11:00–22:00"
+  },
+  {
+   "id": "cue-bar",
+   "kind": "eat",
+   "name": "Cue Bar",
+   "area": "oldtown",
+   "type": "Rooftop bar",
+   "source": "list",
+   "what": "Live bands, pool tables, rooftop over Old Town. Closed Mondays",
+   "day": "Day 6 night",
+   "q": "Cue Bar Phang Nga Road Phuket",
+   "rating": "4.5",
+   "reviews": "375",
+   "hours": "17:00–00:00"
+  },
+  {
+   "id": "dibuk-house",
+   "kind": "eat",
+   "name": "Dibuk House",
+   "area": "oldtown",
+   "type": "Cocktail bar",
+   "source": "pick",
+   "what": "Quiet, serious cocktails a few streets from Cue Bar",
+   "day": "Day 6 night alt",
+   "q": "Dibuk House Yaowarat Road Phuket",
+   "rating": "4.8",
+   "reviews": "384",
+   "hours": "Evenings"
+  },
+  {
+   "id": "jungle-kitchen",
+   "kind": "eat",
+   "name": "Jungle Kitchen",
+   "area": "aonang",
+   "type": "Thai",
+   "source": "pick",
+   "what": "Proper Thai for sharing — the long-standing Ao Nang favourite",
+   "day": "Day 2 dinner",
+   "q": "Jungle Kitchen Ao Nang",
+   "rating": "4.7",
+   "reviews": "2,010",
+   "hours": "Lunch + dinner"
+  },
+  {
+   "id": "ton-ma-yom",
+   "kind": "eat",
+   "name": "Ton Ma Yom",
+   "area": "aonang",
+   "type": "Thai",
+   "source": "pick",
+   "what": "Small sit-down Thai kitchen, always busy",
+   "day": "Day 3 lunch",
+   "q": "Ton Ma Yom Ao Nang",
+   "rating": "4.6",
+   "reviews": "1,584",
+   "hours": "Lunch + dinner"
+  },
+  {
+   "id": "carnivore",
+   "kind": "eat",
+   "name": "Carnivore Steak & Grill",
+   "area": "aonang",
+   "type": "Steakhouse",
+   "source": "pick",
+   "what": "If the group wants a big meat night instead",
+   "day": "Krabi alt",
+   "q": "Carnivore Steak and Grill Ao Nang",
+   "rating": "4.6",
+   "reviews": "1,530",
+   "hours": "Evenings"
+  },
+  {
+   "id": "bamboo-beach",
+   "kind": "eat",
+   "name": "Bamboo Beach Club",
+   "area": "aonang",
+   "type": "Beach club",
+   "source": "pick",
+   "what": "Dj sets, fire shows and tapas on the sand",
+   "day": "Day 2 night",
+   "q": "Bamboo Beach Club Krabi Ao Nang",
+   "rating": "4.7",
+   "reviews": "3,894",
+   "hours": "Evenings"
+  },
+  {
+   "id": "tribe-beach",
+   "kind": "eat",
+   "name": "Tribe Beach Bar",
+   "area": "aonang",
+   "type": "Beach bar",
+   "source": "pick",
+   "what": "Beachfront bar that turns into a club — house and techno",
+   "day": "Day 2 alt",
+   "q": "Tribe Beach Bar Ao Nang",
+   "rating": "4.6",
+   "reviews": "357",
+   "hours": "Late"
+  },
+  {
+   "id": "sea-salt",
+   "kind": "eat",
+   "name": "Sea Salt Krabi",
+   "area": "aonang",
+   "type": "Rooftop bar",
+   "source": "pick",
+   "what": "Sixth-floor rooftop bar and grill above Ao Nang",
+   "day": "Day 3 night",
+   "q": "Sea Salt Krabi Phranang Place Ao Nang",
+   "rating": "4.7",
+   "reviews": "770",
+   "hours": "Evenings"
+  },
+  {
+   "id": "efe",
+   "kind": "eat",
+   "name": "Efe Mediterranean",
+   "area": "phiphi",
+   "type": "Grill",
+   "source": "pick",
+   "what": "Turkish-Mediterranean grill built for sharing",
+   "day": "Day 4 dinner",
+   "q": "Efe Mediterranean Cuisine Koh Phi Phi",
+   "rating": "4.7",
+   "reviews": "1,485",
+   "hours": "Evenings"
+  },
+  {
+   "id": "annas",
+   "kind": "eat",
+   "name": "Anna's Restaurant",
+   "area": "phiphi",
+   "type": "European-Thai",
+   "source": "pick",
+   "what": "The alternative for the birthday eve",
+   "day": "Day 4 alt",
+   "q": "Anna's Restaurant Koh Phi Phi",
+   "rating": "4.7",
+   "reviews": "2,596",
+   "hours": "Evenings"
+  },
+  {
+   "id": "mango-garden",
+   "kind": "eat",
+   "name": "The Mango Garden",
+   "area": "phiphi",
+   "type": "Brunch",
+   "source": "pick",
+   "what": "Mango everything, a minute from the pier — the best breakfast on the island",
+   "day": "Day 5 brunch",
+   "q": "The Mango Garden Phi Phi",
+   "rating": "4.8",
+   "reviews": "3,644",
+   "hours": "Mornings"
+  },
+  {
+   "id": "qoori",
+   "kind": "eat",
+   "name": "Qoori Qoori Cafe",
+   "area": "phiphi",
+   "type": "Cafe",
+   "source": "pick",
+   "what": "Minimalist cafe with a sea view",
+   "day": "Day 5 alt",
+   "q": "Qoori Qoori Cafe Koh Phi Phi",
+   "rating": "4.8",
+   "reviews": "395",
+   "hours": "Mornings"
+  },
+  {
+   "id": "pirates-house",
+   "kind": "eat",
+   "name": "Pirates House",
+   "area": "phiphi",
+   "type": "Restaurant + bar",
+   "source": "pick",
+   "what": "Open-air dinner and cocktails with live music, pier side",
+   "day": "Day 5 birthday dinner",
+   "q": "Pirates House Restaurant Koh Phi Phi",
+   "rating": "4.6",
+   "reviews": "5,425",
+   "hours": "Evenings"
+  },
+  {
+   "id": "sunflower",
+   "kind": "eat",
+   "name": "Sunflower Beach Bar",
+   "area": "phiphi",
+   "type": "Beach bar",
+   "source": "pick",
+   "what": "On the sand at Loh Dalum with the cliffs behind",
+   "day": "Day 5 night",
+   "q": "Sunflower Beach Bar Koh Phi Phi",
+   "rating": "4.5",
+   "reviews": "435",
+   "hours": "Evenings"
+  },
+  {
+   "id": "reggae-bar",
+   "kind": "eat",
+   "name": "Reggae Bar",
+   "area": "phiphi",
+   "type": "Muay Thai bar",
+   "source": "list",
+   "what": "Nightly fights; volunteers get in the ring for free drinks",
+   "day": "Day 4 night",
+   "q": "Reggae Bar Koh Phi Phi",
+   "rating": "4.5",
+   "reviews": "1,958",
+   "hours": "Nightly"
+  },
+  {
+   "id": "patong-beach",
+   "kind": "go",
+   "name": "Patong Beach",
+   "area": "patong",
+   "type": "Beach",
+   "source": "list",
+   "what": "The most happening one — you sleep here night one",
+   "day": "Days 1-2",
+   "q": "Patong Beach Phuket"
+  },
+  {
+   "id": "kalim",
+   "kind": "go",
+   "name": "Kalim Beach",
+   "area": "kamala",
+   "type": "Beach",
+   "source": "list",
+   "what": "Quiet, rocky, right below Zenmaya",
+   "day": "Days 6-8",
+   "q": "Kalim Beach Phuket"
+  },
+  {
+   "id": "kamala-beach",
+   "kind": "go",
+   "name": "Kamala Beach",
+   "area": "kamala",
+   "type": "Beach",
+   "source": "list",
+   "what": "Outside the hotel — Smile Bar, Lillo, Café del Mar all on it",
+   "day": "Day 6 sunset, Days 6-8",
+   "q": "Kamala Beach Phuket"
+  },
+  {
+   "id": "laem-singh",
+   "kind": "go",
+   "name": "Laem Singh viewpoint",
+   "area": "kamala",
+   "type": "Viewpoint",
+   "source": "list",
+   "what": "Drive-up platform between Kamala and Surin. Your 'Kamala viewpoint'",
+   "day": "Day 7",
+   "q": "Laem Singh Viewpoint Phuket"
+  },
+  {
+   "id": "surin",
+   "kind": "go",
+   "name": "Surin Beach",
+   "area": "kamala",
+   "type": "Beach",
+   "source": "list",
+   "what": "10 min north of the hotel, best swimming and sunset on this stretch",
+   "day": "Day 7",
+   "q": "Surin Beach Phuket"
+  },
+  {
+   "id": "banana",
+   "kind": "go",
+   "name": "Banana Beach",
+   "area": "north",
+   "type": "Beach",
+   "source": "list",
+   "what": "Low crowds. New car park at the north end (100 THB); old hill path closed",
+   "day": "Day 8 — Sam",
+   "q": "Banana Beach Phuket"
+  },
+  {
+   "id": "kata",
+   "kind": "go",
+   "name": "Kata Beach",
+   "area": "south",
+   "type": "Beach",
+   "source": "list",
+   "what": "Famous, beautiful, great sunset — but 40+ min south",
+   "day": "Not placed",
+   "q": "Kata Beach Phuket"
+  },
+  {
+   "id": "karon",
+   "kind": "go",
+   "name": "Karon Beach",
+   "area": "south",
+   "type": "Beach",
+   "source": "list",
+   "what": "Long and quiet, between Patong and Kata",
+   "day": "Not placed",
+   "q": "Karon Beach Phuket"
+  },
+  {
+   "id": "freedom",
+   "kind": "go",
+   "name": "Freedom Beach",
+   "area": "patong",
+   "type": "Beach",
+   "source": "list",
+   "what": "Longtail-only from Patong, few shops",
+   "day": "Optional",
+   "q": "Freedom Beach Phuket"
+  },
+  {
+   "id": "hanuman",
+   "kind": "go",
+   "name": "Hanuman World",
+   "area": "patong",
+   "type": "Luge + zipline",
+   "source": "pick",
+   "what": "The luge from the reels — 650 m and 1.2 km tracks",
+   "day": "Day 7",
+   "q": "Hanuman World Phuket"
+  },
+  {
+   "id": "paragon",
+   "kind": "go",
+   "name": "Big range in Rawai (Phuket Shooters)",
+   "area": "south",
+   "type": "Shooting",
+   "source": "list",
+   "what": "Your 'big but far' one, 45 min south of Patong. The Patong range on Day 2 replaces it",
+   "day": "Not placed — backup",
+   "q": "Patong Paragon Gun Shooting Range Rawai"
+  },
+  {
+   "id": "patong-range",
+   "kind": "go",
+   "name": "Patong Shooting Range",
+   "area": "patong",
+   "type": "Shooting",
+   "source": "list",
+   "what": "The small one — fallback if you're short on time",
+   "day": "Backup",
+   "q": "Patong Shooting Range Phuket"
+  },
+  {
+   "id": "naka",
+   "kind": "go",
+   "name": "Naka Weekend Market",
+   "area": "oldtown",
+   "type": "Market",
+   "source": "list",
+   "what": "Shoes, clothes, electronics, street food. Sat-Sun 16:00-21:00 only",
+   "day": "Day 6",
+   "q": "Naka Weekend Market Phuket"
+  },
+  {
+   "id": "lard-yai",
+   "kind": "go",
+   "name": "Lard Yai — Sunday Walking Street",
+   "area": "oldtown",
+   "type": "Market",
+   "source": "list",
+   "what": "Thalang Rd, Sundays 16:00-22:00",
+   "day": "Day 6 dinner",
+   "q": "Thalang Road Phuket Old Town"
+  },
+  {
+   "id": "central",
+   "kind": "go",
+   "name": "Central Phuket",
+   "area": "oldtown",
+   "type": "Mall",
+   "source": "list",
+   "what": "Floresta + Festival, the island's biggest mall",
+   "day": "Day 8 — Sam",
+   "q": "Central Phuket Floresta"
+  },
+  {
+   "id": "jungceylon",
+   "kind": "go",
+   "name": "Jungceylon mall",
+   "area": "patong",
+   "type": "Mall",
+   "source": "pick",
+   "what": "Air-con, forex, Big C supermarket — 5 min from Mad Monkey",
+   "day": "Day 1",
+   "q": "Jungceylon Patong"
+  },
+  {
+   "id": "malin-plaza",
+   "kind": "go",
+   "name": "Malin Plaza",
+   "area": "patong",
+   "type": "Market",
+   "source": "pick",
+   "what": "Street food and clothes stalls, daily from 2 pm to midnight",
+   "day": "Day 1",
+   "q": "Malin Plaza Patong"
+  },
+  {
+   "id": "landmark-market",
+   "kind": "go",
+   "name": "Ao Nang Landmark Night Market",
+   "area": "aonang",
+   "type": "Night market",
+   "source": "pick",
+   "what": "80-100 food stalls — a wander after dinner",
+   "day": "Day 2",
+   "q": "Ao Nang Landmark Night Market"
+  },
+  {
+   "id": "bangla",
+   "kind": "go",
+   "name": "Bangla Road",
+   "area": "patong",
+   "type": "Nightlife",
+   "source": "list",
+   "what": "The strip. Most clubs free entry — you pay for drinks",
+   "day": "Days 1 and 7",
+   "q": "Bangla Road Patong"
+  },
+  {
+   "id": "big-buddha",
+   "kind": "go",
+   "name": "Big Buddha + Wat Chalong",
+   "area": "south",
+   "type": "Sight",
+   "source": "list",
+   "what": "Drive-up, 10 min apart — pair them",
+   "day": "Not placed",
+   "q": "Big Buddha Phuket"
+  },
+  {
+   "id": "phang-nga",
+   "kind": "go",
+   "name": "Phang Nga Bay",
+   "area": "north",
+   "type": "Day trip",
+   "source": "list",
+   "what": "Not a viewpoint — a full-day boat trip, or Samet Nangshe viewpoint 2 hrs away",
+   "day": "Doesn't fit",
+   "q": "Phang Nga Bay"
+  },
+  {
+   "id": "tiger-cave",
+   "kind": "go",
+   "name": "Tiger Cave Temple",
+   "area": "aonang",
+   "type": "Temple + steps",
+   "source": "pick",
+   "what": "1,260 steps to the summit view. Dawn only",
+   "day": "Day 3 option",
+   "q": "Wat Tham Sua Tiger Cave Temple Krabi"
+  },
+  {
+   "id": "four-islands",
+   "kind": "go",
+   "name": "4 Islands (Tup, Chicken, Poda)",
+   "area": "aonang",
+   "type": "Island tour",
+   "source": "pick",
+   "what": "Sandbar, snorkelling, sunset BBQ on Poda, plankton",
+   "day": "Day 3",
+   "q": "Koh Tup Krabi"
+  },
+  {
+   "id": "phra-nang",
+   "kind": "go",
+   "name": "Phra Nang Cave Beach",
+   "area": "aonang",
+   "type": "Beach",
+   "source": "pick",
+   "what": "Krabi's best beach — a flat walk from Railay",
+   "day": "Day 4",
+   "q": "Phra Nang Cave Beach Krabi"
+  },
+  {
+   "id": "railay",
+   "kind": "go",
+   "name": "Railay Beach",
+   "area": "aonang",
+   "type": "Beach",
+   "source": "pick",
+   "what": "15 min by longtail, cliffs, walking street",
+   "day": "Day 4",
+   "q": "Railay Beach Krabi"
+  },
+  {
+   "id": "thalane",
+   "kind": "go",
+   "name": "Ao Thalane kayaking",
+   "area": "aonang",
+   "type": "Kayak",
+   "source": "pick",
+   "what": "Mangroves and limestone, calm water",
+   "day": "Day 3 option",
+   "q": "Ao Thalane Kayaking Krabi"
+  },
+  {
+   "id": "relax-bar",
+   "kind": "go",
+   "name": "Relax Bar (pirate boat check-in)",
+   "area": "phiphi",
+   "type": "Meeting point",
+   "source": "pick",
+   "what": "Be there by 11:30 on the 21st",
+   "day": "Day 5",
+   "q": "Relax Bar Koh Phi Phi"
+  },
+  {
+   "id": "maya-bay",
+   "kind": "go",
+   "name": "Maya Bay",
+   "area": "phiphi",
+   "type": "Bay",
+   "source": "pick",
+   "what": "On the pirate boat — about an hour there",
+   "day": "Day 5",
+   "q": "Maya Bay Phi Phi Leh"
+  },
+  {
+   "id": "loh-dalum",
+   "kind": "go",
+   "name": "Loh Dalum Bay",
+   "area": "phiphi",
+   "type": "Beach",
+   "source": "pick",
+   "what": "The party beach — fire shows after dark, swim at high tide",
+   "day": "Days 4-5",
+   "q": "Loh Dalum Bay Koh Phi Phi"
+  },
+  {
+   "id": "patong-range",
+   "kind": "go",
+   "name": "Patong Paragon shooting range",
+   "area": "patong",
+   "type": "Shooting",
+   "source": "list",
+   "what": "By Bangla Road. 9mm, .22 and .38 packages, passport needed, book an hour ahead",
+   "day": "Day 2, 10:30",
+   "q": "Patong Paragon Gun Shooting Range",
+   "hours": "10:30–00:00"
+  },
+  {
+   "id": "phiphi-viewpoint",
+   "kind": "go",
+   "name": "Phi Phi Viewpoints 1-3",
+   "area": "phiphi",
+   "type": "Viewpoint",
+   "source": "pick",
+   "what": "Steep 20-30 min stair climb from Tonsai. 50 THB for 1 + 2, +20 THB for 3. The postcard view of both bays",
+   "day": "Day 4 sunset or Day 6 morning",
+   "q": "Phi Phi Viewpoint"
+  }
+ ],
+ "events": [
+  {
+   "when": "Sun 22 Nov, 1-7 pm",
+   "name": "Zoo del Mar daytime party",
+   "where": "Café del Mar, Kamala",
+   "note": "Poolside DJs and live acts, 10 min from Zenmaya — an easy add-on to your pool afternoon."
+  },
+  {
+   "when": "20-29 Nov",
+   "name": "Phoodie Phuket Food Festival",
+   "where": "Limelight Avenue, Phuket Town",
+   "note": "Food festival a few minutes from Old Town — easy add-on on the 22nd."
+  },
+  {
+   "when": "Tue 24 Nov (some say 25)",
+   "name": "Loy Krathong",
+   "where": "Patong Beach, Saphan Hin, Karon",
+   "note": "Thailand's floating-lantern festival lands the day you fly. Most of you will miss it; stalls and early floats start a day or two before."
+  },
+  {
+   "when": "Wed 18, Fri 20, Sat 21 Nov, 10 pm",
+   "name": "Café del Mar Clubroom nights",
+   "where": "Kamala",
+   "note": "You're in Krabi and Phi Phi on those nights. Monday the 23rd has nothing listed — just the regular sunset session."
+  }
+ ],
+ "checked": [
+  {
+   "item": "Banana Beach",
+   "verdict": "Checked",
+   "finding": "Quiet, north-west coast. Old hill path closed in 2025 — use the new car park, 100 THB.",
+   "where": "Day 8, Sam — roughly on the way to the airport"
+  },
+  {
+   "item": "Surin Beach",
+   "verdict": "Checked",
+   "finding": "10 min north of Zenmaya, best swimming on that stretch.",
+   "where": "Day 7 afternoon"
+  },
+  {
+   "item": "Laem Singh viewpoint",
+   "verdict": "Checked",
+   "finding": "Drive-up platform between Kamala and Surin.",
+   "where": "Day 7, on the way to Surin"
+  },
+  {
+   "item": "Kamala Beach",
+   "verdict": "Checked",
+   "finding": "Right outside Zenmaya.",
+   "where": "Days 6-8"
+  },
+  {
+   "item": "Kalim Beach",
+   "verdict": "Checked",
+   "finding": "Between Patong and Kamala — basically below the hotel.",
+   "where": "Days 6-8, walking distance"
+  },
+  {
+   "item": "Patong Beach",
+   "verdict": "Checked",
+   "finding": "Where you sleep on night one.",
+   "where": "Day 1 afternoon, Day 2 morning"
+  },
+  {
+   "item": "Kata Beach",
+   "verdict": "Checked",
+   "finding": "Real and lovely, but 40+ min south of Kamala.",
+   "where": "Not placed — swap it for Surin if you prefer"
+  },
+  {
+   "item": "Freedom Beach",
+   "verdict": "Checked",
+   "finding": "Longtail-only from Patong, few shops.",
+   "where": "Optional"
+  },
+  {
+   "item": "Karon Beach",
+   "verdict": "Checked",
+   "finding": "Long and quiet, between Patong and Kata.",
+   "where": "Not placed"
+  },
+  {
+   "item": "Phang Nga Bay",
+   "verdict": "Heads up",
+   "finding": "Not a viewpoint — it's a full-day boat trip (James Bond Island), or Samet Nangshe viewpoint 2 hrs away plus a 20 min walk.",
+   "where": "Doesn't fit without losing a whole day"
+  },
+  {
+   "item": "Big Buddha",
+   "verdict": "Checked",
+   "finding": "Drive-up, Chalong.",
+   "where": "Not placed — Day 8 option for Sam"
+  },
+  {
+   "item": "Chalong temple",
+   "verdict": "Checked",
+   "finding": "Wat Chalong, 10 min from Big Buddha.",
+   "where": "Pair with Big Buddha"
+  },
+  {
+   "item": "Sunday night market",
+   "verdict": "Checked",
+   "finding": "Lard Yai, Thalang Rd, Sundays 16:00-22:00.",
+   "where": "Day 6 — you land on a Sunday"
+  },
+  {
+   "item": "Kamala viewpoint",
+   "verdict": "Corrected",
+   "finding": "No viewpoint by that exact name. The drive-up ones by the hotel are Laem Singh (north) and Kalim (south).",
+   "where": "Day 7 — Laem Singh"
+  },
+  {
+   "item": "Gems jewellery",
+   "verdict": "Heads up",
+   "finding": "Gem 'galleries' are the classic tuk-tuk commission stop. Fine if you're buying; skip it if a driver suggests it.",
+   "where": "Not placed"
+  },
+  {
+   "item": "Old Town Phuket",
+   "verdict": "Checked",
+   "finding": "",
+   "where": "Day 6 evening"
+  },
+  {
+   "item": "Patong shooting range (small)",
+   "verdict": "Checked",
+   "finding": "Exists — a quick fallback.",
+   "where": "Day 2, 10:30 — before the ferry"
+  },
+  {
+   "item": "Phuket Shooters (big, far)",
+   "verdict": "Checked",
+   "finding": "Not placed — the Patong range on Day 2 replaces it.",
+   "where": "Backup"
+  },
+  {
+   "item": "Reggae Bar, Phi Phi",
+   "verdict": "Checked",
+   "finding": "Muay Thai ring every night; volunteers fight for drinks.",
+   "where": "Day 4 night"
+  },
+  {
+   "item": "Café del Mar",
+   "verdict": "Checked",
+   "finding": "Kamala Beach. Dj Mag top-100 club; daytime to late, Clubroom Wed-Sat only.",
+   "where": "Day 7 sunset"
+  },
+  {
+   "item": "Smile Bar",
+   "verdict": "Checked",
+   "finding": "Kamala beachfront, grilled chicken, cheap, 10 am-midnight.",
+   "where": "Day 7 lunch"
+  },
+  {
+   "item": "Lillo Island",
+   "verdict": "Checked",
+   "finding": "Restaurant and bar of a small resort on Kamala beach, from 8 am.",
+   "where": "Day 7 breakfast"
+  },
+  {
+   "item": "Central Phuket",
+   "verdict": "Checked",
+   "finding": "Floresta + Festival, the biggest mall.",
+   "where": "Day 8, Sam"
+  },
+  {
+   "item": "Little Phuket",
+   "verdict": "Corrected",
+   "finding": "It's in Phuket Old Town (Talat Yai), not Ao Nang. Thai classics, bills ~600-800 THB.",
+   "where": "Day 6, Lard Yai night"
+  },
+  {
+   "item": "Hey Mango",
+   "verdict": "Closest match",
+   "finding": "Couldn't find it in Ao Nang. The best-rated mango spot on your route is The Mango Garden on Phi Phi — Google 4.8 from 3,600 reviews.",
+   "where": "Day 5 birthday brunch"
+  },
+  {
+   "item": "Naka market",
+   "verdict": "Checked",
+   "finding": "Sat-Sun 16:00-21:00 only.",
+   "where": "Day 6 — your only weekend day in Phuket"
+  },
+  {
+   "item": "Bangla Road",
+   "verdict": "Checked",
+   "finding": "",
+   "where": "Days 1 and 7"
+  },
+  {
+   "item": "Toy-tor-toe",
+   "verdict": "Checked",
+   "finding": "Toy-Tor-Toe, Thepkrasattri Rd at the edge of Old Town. Tom yum prawn noodles, crispy pork lard. Cash only, 09:00-19:00.",
+   "where": "Day 6 lunch, straight off the ferry"
+  },
+  {
+   "item": "Bonnee mango",
+   "verdict": "Corrected",
+   "finding": "It's Bonnee Brunch & Blends, 28 Soi Romanee. Mango sticky rice is the star; a mango shake isn't confirmed.",
+   "where": "Day 6, Lard Yai"
+  },
+  {
+   "item": "Cue Bar",
+   "verdict": "Checked",
+   "finding": "Rooftop and live bands, 94 Phang Nga Rd, 17:00-00:00, closed Mondays. Google 4.5.",
+   "where": "Day 6 night — the only evening it works"
+  },
+  {
+   "item": "Maru Korean BBQ",
+   "verdict": "Checked",
+   "finding": "Patong, Rat-U-Thit 200 Pi Rd, 12:00-22:00.",
+   "where": "Day 7 dinner"
+  },
+  {
+   "item": "Uncle Joe coffee",
+   "verdict": "Checked",
+   "finding": "Patong, near the beach, 08:00-17:00.",
+   "where": "Day 2 breakfast"
+  },
+  {
+   "item": "Oscar sports bar",
+   "verdict": "Closest match",
+   "finding": "Nothing by that name on Bangla. Aussie Bar is the famous sports bar there but rates 4.3, so night one's sunset is Kee Sky Lounge's rooftop (4.6) instead.",
+   "where": "Day 1 sunset"
+  },
+  {
+   "item": "Pad thai somewhere",
+   "verdict": "Checked",
+   "finding": "Kaab Gluay in Patong (Google 4.5) and Kopitiam by Wilai in Old Town (4.6).",
+   "where": "Day 1 lunch, Day 6"
+  },
+  {
+   "item": "Dang restaurant",
+   "verdict": "Checked",
+   "finding": "Patong, near Bangla, 08:30-23:30.",
+   "where": "Day 1 dinner, all five"
+  },
+  {
+   "item": "Illuzion",
+   "verdict": "Checked",
+   "finding": "",
+   "where": "Days 1 and 7"
+  }
+ ],
+ "emergency": [
+  {
+   "name": "Tourist Police",
+   "number": "1155",
+   "note": "English-speaking — first call for anything that goes wrong"
+  },
+  {
+   "name": "Ambulance / medical",
+   "number": "1669",
+   "note": "Free national emergency line"
+  },
+  {
+   "name": "Police",
+   "number": "191",
+   "note": ""
+  },
+  {
+   "name": "Fire",
+   "number": "199",
+   "note": ""
+  }
+ ],
+ "emergency_link": {
+  "text": "Lost passport: Embassy of India, Bangkok —",
+  "url": "https://www.embassyofindiabangkok.gov.in",
+  "label": "open the embassy website and save the helpline before you fly."
+ },
+ "know": [
+  {
+   "kicker": "Arriving",
+   "title": "Phuket airport",
+   "items": [
+    [
+     "Arrival card (TDAC)",
+     "Each of you files the free Thailand Digital Arrival Card at tdac.immigration.go.th within 3 days of landing — the window opens 14 Nov. Show the QR code at immigration."
+    ],
+    [
+     "Getting out",
+     "Grab has the official pickup point inside the terminal (Exit 8, international). A metered taxi to Patong runs ~550-700 THB; the Smart Bus is 100 THB flat but takes ~1h20."
+    ],
+    [
+     "SIM or eSIM",
+     "Ais, True and Dtac counters sit in arrivals. Ais is ~299 THB for 8 days / 15 Gb; True and Dtac ~449 THB for 8 days unlimited. Bring your passport — registration takes 10-30 minutes. An eSIM bought before you fly skips the queue."
+    ],
+    [
+     "Change a little",
+     "Airport rates are poor. Change ~50 USD for the taxi, the rest at SuperRich or the Patong booths. Clean, unmarked $100 notes get the best rate."
+    ]
+   ]
+  },
+  {
+   "kicker": "Money",
+   "title": "Cash, cards and ATMs",
+   "items": [
+    [
+     "ATMs",
+     "Most banks charge 220-250 THB per withdrawal; Aeon ATMs (inside Big C and Lotus's) charge 150. Take out larger amounts less often, and always choose to be charged in baht."
+    ],
+    [
+     "Cards vs cash",
+     "Cards work at 7-Eleven, malls and most restaurants. Longtails, tuk-tuks, markets, park fees and most of Phi Phi are cash."
+    ],
+    [
+     "Tipping",
+     "Not expected, but welcome. Check sit-down bills for a service charge first; otherwise round up or leave 20-50 THB."
+    ]
+   ]
+  },
+  {
+   "kicker": "Getting around",
+   "title": "Phuket",
+   "items": [
+    [
+     "Apps",
+     "Grab is the most reliable; Bolt is often 20-30% cheaper with fewer cars. Around Patong Beach Road, drop your pin 50-100 m from any taxi rank — drivers there push back on app pickups."
+    ],
+    [
+     "Typical Grab fares",
+     "Patong to Old Town ~180-240 THB; Patong to Kata ~100-140. In Kamala expect 10-20 minute waits — order before you need it."
+    ],
+    [
+     "Tuk-tuks",
+     "Unmetered. Let them quote, counter at 60-70%, agree the price for the whole vehicle, and expect +30-50% in Patong after midnight. Patong to Kamala ~400-600; Patong to Old Town ~600-900."
+    ],
+    [
+     "Scooters",
+     "You'd need a home motorcycle licence plus an IDP with the motorcycle endorsement — without it, insurance is void and helmet fines run 500-2,000 THB. Nothing in this plan needs one; Grab and the Sunday driver cover it."
+    ]
+   ]
+  },
+  {
+   "kicker": "Getting around",
+   "title": "Ao Nang and Phi Phi",
+   "items": [
+    [
+     "Ao Nang",
+     "Grab works (cancellations happen). White songthaews run the beach road until ~8 pm: 20 THB short hops, 60 THB to Krabi Town. A tuk-tuk to Krabi Town is ~400."
+    ],
+    [
+     "Railay longtails",
+     "From the booths on Ao Nang beach: 100 THB pp one way 08:00-18:00, 150 after 6 pm, 800 for a private boat. You'll wade in knee-deep — wear shorts and carry a dry bag."
+    ],
+    [
+     "Phi Phi",
+     "No cars at all. Pay the 20 THB pier fee in cash as you step off. Most places outside the resorts are cash only, and ATMs charge the usual fee."
+    ],
+    [
+     "Tides",
+     "Loh Dalum drains at low tide — swim at high tide. The Tup-Mor sandbar on the Krabi tour only appears at low tide."
+    ]
+   ]
+  },
+  {
+   "kicker": "Rules that bite",
+   "title": "What's changed, what's illegal",
+   "items": [
+    [
+     "Alcohol hours",
+     "Since 29 May 2026 shops, 7-Eleven and restaurants sell alcohol 11:00 to midnight — the old 2-5 pm break is gone. Licensed bars and clubs can run later. Drinking age is 20; carry a passport copy."
+    ],
+    [
+     "Beaches",
+     "Drinking on most public beaches is prohibited — the licensed beach bars are fine, 7-Eleven beers on the sand are not. Patong and other beaches also have smoking bans with heavy fines; smoke only where it's marked."
+    ],
+    [
+     "Cannabis",
+     "Prescription-only since mid-2025. Walk-in shops may be operating illegally, and public smoking is fined up to 25,000 THB. Skip it."
+    ],
+    [
+     "Temples and respect",
+     "Shoulders and knees covered at Tiger Cave, Wat Chalong and Big Buddha; shoes off in shrines. Never make jokes about the royal family — it's a serious offence."
+    ]
+   ]
+  },
+  {
+   "kicker": "Scams to swerve",
+   "title": "Patong especially",
+   "items": [
+    [
+     "Jet skis",
+     "The classic: operators 'find' damage and demand 40,000 THB or more. Don't rent them on Patong."
+    ],
+    [
+     "Bangla touts",
+     "Ping-pong show touts add commission to every drink. Walk into bars yourselves and pay each round as it arrives."
+    ],
+    [
+     "Free tuk-tuk rides",
+     "A cheap ride with a 'quick stop' at a gem shop is a commission run. Insist on going direct."
+    ],
+    [
+     "Photo props and rentals",
+     "Slow lorises and iguanas for photos are illegal — decline. Never leave a passport as a rental deposit; photograph anything you rent first."
+    ],
+    [
+     "Drinks",
+     "Watch buckets being made and never leave a drink alone on Bangla or Loh Dalum."
+    ]
+   ]
+  },
+  {
+   "kicker": "Sea and sun",
+   "title": "Late November",
+   "items": [
+    [
+     "Weather",
+     "Late November is the turn into the dry season on the Andaman coast: mostly sunny, short showers still possible, the sea calming. Boats can still cancel for weather — if an operator calls it, don't argue."
+    ],
+    [
+     "Swimming",
+     "A red flag means no swimming — rip currents are real at Patong and Kata. Sunset is around 6:10 pm."
+    ],
+    [
+     "Heat",
+     "Spf50 and a hat for every boat day, and two litres of water each for Tiger Cave. Bottled water to drink; restaurant ice is factory-made and fine."
+    ]
+   ]
+  }
+ ],
+ "bookings": [
+  {
+   "title": "Flights",
+   "sub": "All ten legs booked",
+   "rows": [
+    {
+     "lead": "17 Nov",
+     "main": "Arjun",
+     "small": "Bangalore (BLR) 06:15 → Phuket 11:40",
+     "status": "Booked"
+    },
+    {
+     "lead": "17 Nov",
+     "main": "Sam",
+     "small": "Kolkata (CCU) 07:00 → Phuket 11:35",
+     "status": "Booked"
+    },
+    {
+     "lead": "17 Nov",
+     "main": "Kabir",
+     "small": "Kolkata (CCU) 07:00 → Phuket 11:35",
+     "status": "Booked"
+    },
+    {
+     "lead": "17 Nov",
+     "main": "Dev",
+     "small": "Kolkata (CCU) 07:00 → Phuket 11:35",
+     "status": "Booked"
+    },
+    {
+     "lead": "17 Nov",
+     "main": "Rohan",
+     "small": "Melbourne (MEL) 15:15 → Phuket 20:00",
+     "status": "Booked"
+    },
+    {
+     "lead": "23 Nov",
+     "main": "Kabir",
+     "small": "Phuket 12:30 → Kolkata / Bagdogra",
+     "status": "Booked"
+    },
+    {
+     "lead": "23 Nov",
+     "main": "Dev",
+     "small": "Phuket 12:30 → Kolkata / Bagdogra",
+     "status": "Booked"
+    },
+    {
+     "lead": "24 Nov",
+     "main": "Rohan",
+     "small": "Phuket 11:00 → Melbourne (MEL)",
+     "status": "Booked"
+    },
+    {
+     "lead": "24 Nov",
+     "main": "Arjun",
+     "small": "Phuket 12:40 → Bangalore (BLR)",
+     "status": "Booked"
+    },
+    {
+     "lead": "24 Nov",
+     "main": "Sam",
+     "small": "Phuket 20:40 → Kolkata (CCU)",
+     "status": "Booked"
+    }
+   ]
+  },
+  {
+   "title": "Boats & transfers",
+   "sub": "Ferries, the island tour, the pirate boat, the van",
+   "rows": [
+    {
+     "lead": "18 Nov",
+     "main": "Ferry · Phuket — Rassada Pier 13:30 → Krabi — Klong Jilad Pier",
+     "small": "Confirm the Slot. ~800-1,100 THB pp, then a ~30 min van to Ao Nang"
+    },
+    {
+     "lead": "19 Nov",
+     "main": "Island tour · Ao Nang hotel pickup 12:15 → 7 Islands sunset + BBQ + plankton",
+     "small": "Book on Klook; exact pickup time comes by email. Park fee in cash"
+    },
+    {
+     "lead": "20 Nov",
+     "main": "Ferry · Ao Nang Pier 13:30 → Koh Phi Phi (Tonsai)",
+     "small": "Confirm the Slot. ~650 THB pp"
+    },
+    {
+     "lead": "21 Nov",
+     "main": "Pirate boat · Relax Bar, Tonsai 11:30 → Maya Bay loop, back to Tonsai",
+     "small": "Booked. 1,900 THB balance in cash on board; drinks extra"
+    },
+    {
+     "lead": "22 Nov",
+     "main": "Ferry · Koh Phi Phi (Tonsai) 10:30 → Phuket — Rassada Pier",
+     "small": "Big ferry preferred, 450-630 THB pp"
+    },
+    {
+     "lead": "22 Nov",
+     "main": "Van · Rassada Pier 12:30 → Old Town lunch, then Zenmaya, Kamala",
+     "small": "~1,000-1,500 THB for the van, split 5 ways"
+    }
+   ]
+  },
+  {
+   "title": "Stays",
+   "sub": "Four places, all booked",
+   "rows": [
+    {
+     "lead": "17 Nov",
+     "main": "Mad Monkey Phuket",
+     "small": "Booked — party hostel, walkable to Bangla · Patong. Booked through the 19th but you leave on the 18th — use the room that morning, ask about a credit",
+     "map": "Mad Monkey Phuket Patong"
+    },
+    {
+     "lead": "18 Nov",
+     "main": "Nomads Ao Nang",
+     "small": "Booked — hostel by the beach · Ao Nang, Krabi. Book the Krabi tours through reception",
+     "map": "Nomads Ao Nang Ao Nang, Krabi"
+    },
+    {
+     "lead": "20 Nov",
+     "main": "Bayview Resort",
+     "small": "Booked — 2 rooms, the birthday stay · Tonsai, Koh Phi Phi. On the headland — 10-15 min walk to the village, or the resort shuttle boat",
+     "map": "Bayview Resort Tonsai, Koh Phi Phi"
+    },
+    {
+     "lead": "22 Nov",
+     "main": "Zenmaya Oceanfront",
+     "small": "Booked — 2 rooms, Trademark Collection by Wyndham · Kamala. Kabir + Dev 1 night, the other three 2 nights. Kamala, not Patong",
+     "map": "Zenmaya Oceanfront Kamala"
+    }
+   ]
+  },
+  {
+   "title": "Tours on Klook",
+   "sub": "From-prices as listed in November 2026",
+   "rows": [
+    {
+     "lead": "Day 3",
+     "main": "7 Islands sunset + BBQ + plankton",
+     "small": "From ~US$40 · ★ 4.5 (982)",
+     "url": "https://www.klook.com/activity/77264-join-7-islands-sunset-tour-bbq-dinner-krabi-bioluminescent-plankton/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Day 3 alt",
+     "main": "Hong Island sunset + plankton",
+     "small": "From ~US$62 · ★ 4.4 (86)",
+     "url": "https://www.klook.com/activity/77402-join-hong-island-sunset-tour-bbq-dinner-krabi-bioluminescent-plankton/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Day 3 morning",
+     "main": "Krabi morning tours — kayaking, elephants",
+     "small": "From ~US$23 · ★ 4.8-4.9",
+     "url": "https://www.klook.com/destination/c63-krabi/1001-tours/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Day 3 morning",
+     "main": "Krabi ATV",
+     "small": "From ~US$27 · ★ 4.6 (54)",
+     "url": "https://www.klook.com/destination/c63-krabi/1030-atv/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Day 2",
+     "main": "Patong Paragon shooting range",
+     "small": "Check the app",
+     "url": "https://www.klook.com/activity/144078-patong-paragon-gun-shooting-range-in-phuket/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Day 7",
+     "main": "Hanuman World luge kart",
+     "small": "From ~US$21 · ★ 4.7 (22)",
+     "url": "https://www.klook.com/activity/224340-luge-kart-adventure-at-hanuman-world-in-phuket/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Day 7",
+     "main": "Hanuman World zipline",
+     "small": "From ~US$23 · ★ 4.7 (1.3K)",
+     "url": "https://www.klook.com/activity/3732-zipline-adventure-hanuman-world-phuket-skywalk/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Optional",
+     "main": "Simon Cabaret, Patong",
+     "small": "From ~US$21 · ★ 4.5 (4.4K)",
+     "url": "https://www.klook.com/activity/292-simon-cabaret-show-phuket/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Optional",
+     "main": "Patong Boxing Stadium — Muay Thai",
+     "small": "Check the app",
+     "url": "https://www.klook.com/activity/80747-patong-boxing-stadium-ticket-phuket/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Optional",
+     "main": "Phuket ATV + zipline",
+     "small": "From ~US$24 · ★ 4.6 (2.9K)",
+     "url": "https://www.klook.com/activity/123351-phuket-paradise-atv-and-zipline-experience/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Optional",
+     "main": "Andamanda water park",
+     "small": "From ~US$39 · ★ 4.6 (2.1K)",
+     "url": "https://www.klook.com/activity/71806-andamanda-phuket-admission-phuket/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Optional",
+     "main": "Yona Beach Club",
+     "small": "From ~US$44 · ★ 4.3 (246)",
+     "url": "https://www.klook.com/activity/85999-yona-beach-club-phuket-thailand/",
+     "url_label": "Book on Klook"
+    },
+    {
+     "lead": "Check dates",
+     "main": "Sail Away foam boat party",
+     "small": "Check the app",
+     "url": "https://www.klook.com/activity/77996-join-sail-away-foam-boat-party-phuket/",
+     "url_label": "Book on Klook"
+    }
+   ]
+  },
+  {
+   "title": "Didn’t make the cut",
+   "sub": "Swap one in if plans change",
+   "rows": [
+    {
+     "lead": "Maybe",
+     "main": "Hong Island full day, Krabi",
+     "small": "Prettier lagoon than the 4 Islands, but a full day — it would replace the whole of the 19th"
+    },
+    {
+     "lead": "Maybe",
+     "main": "Hanuman World A+ package + 2 luge runs",
+     "small": "32 zipline platforms, roller, skywalk, buffet"
+    },
+    {
+     "lead": "Maybe",
+     "main": "Sailaway boat party, Phuket",
+     "small": "Monthly open-bar boat party with a foam finale — check if one lands on your dates"
+    },
+    {
+     "lead": "Maybe",
+     "main": "Freedom Beach by longtail",
+     "small": "Boat from Patong split a few ways, plus ~200 THB entry"
+    },
+    {
+     "lead": "Maybe",
+     "main": "Phang Nga Bay / James Bond Island",
+     "small": "Full-day boat trip from Phuket. Price is an estimate — it doesn't fit as planned"
+    },
+    {
+     "lead": "Maybe",
+     "main": "Muay Thai stadium night",
+     "small": "Ao Nang or Patong; ringside costs more"
+    },
+    {
+     "lead": "Maybe",
+     "main": "Andamanda water park",
+     "small": "A solid hangover day"
+    }
+   ]
+  }
+ ],
+ "footer": "Prepared November 2026. Visa, arrival-card, alcohol and vape rules were checked against the Royal Thai Embassy, TAT and news reports that month; hours, ratings and prices come from Google and Klook listings and can change. Confirm the two afternoon ferries and the island-tour pickup when you book. The illustration is original artwork.",
+ "pdf": {
+  "facts": "7 nights, 4 stays, 3 ferries",
+  "stamp_title": "Andaman",
+  "stamp_note": "THB · 2026",
+  "map_bbox": [
+   97.86,
+   7.66,
+   99.1,
+   8.18
+  ],
+  "day_page_titles": {
+   "0": "Days 1–4 · Patong, Krabi, Phi Phi",
+   "1": "Days 5–8 · The birthday, then Phuket"
+  },
+  "transport": [
+   {
+    "when": "Tue 17",
+    "main": "Land at Phuket",
+    "small": "Four at 11:35–11:40 (CCU, BLR) · Rohan 20:00 (MEL)"
+   },
+   {
+    "when": "Wed 18",
+    "main": "Ferry 13:30 · Rassada → Klong Jilad",
+    "small": "Be at the pier by 13:00, then a 30 min van to Ao Nang. Confirm the slot"
+   },
+   {
+    "when": "Thu 19",
+    "main": "Island tour pickup 12:15",
+    "small": "7 Islands sunset + BBQ + plankton, back ~20:00. Park fee in cash"
+   },
+   {
+    "when": "Fri 20",
+    "main": "Ferry 13:30 · Ao Nang → Tonsai",
+    "small": "~2 h. 20 THB pier fee on Phi Phi"
+   },
+   {
+    "when": "Sat 21",
+    "main": "Pirate boat 11:30–19:30",
+    "small": "Meet at Relax Bar by 11:30. 1,900 THB balance in cash"
+   },
+   {
+    "when": "Sun 22",
+    "main": "Ferry 10:30 · Tonsai → Rassada",
+    "small": "Van via an Old Town lunch to Zenmaya, check-in from 14:00"
+   },
+   {
+    "when": "23–24",
+    "main": "Flights home",
+    "small": "Mon 23 Kabir, Dev 12:30 · Tue 24 Rohan 11:00, Arjun 12:40, Sam 20:40"
+   }
+  ],
+  "handy": [
+   {
+    "when": "Thu 19 · dawn",
+    "name": "Tiger Cave Temple",
+    "note": "1,260 steps, ~1 h up; or kayak, ATV, elephants",
+    "q": "Tiger Cave Temple Krabi"
+   },
+   {
+    "when": "Fri 20 · sunset",
+    "name": "Phi Phi Viewpoint 1 + 2",
+    "note": "20-30 min steep stairs, 50 THB; or Loh Dalum beach",
+    "q": "Phi Phi Viewpoint 2"
+   },
+   {
+    "when": "Sun 22 · 07:00",
+    "name": "Viewpoint before the ferry",
+    "note": "Cooler, quieter, best light ~8; back by 9:00",
+    "q": "Phi Phi Viewpoint 2"
+   },
+   {
+    "when": "Sun 22 · evening",
+    "name": "Naka market instead of Lard Yai",
+    "note": "Or stay in at Zenmaya if the group is tired",
+    "q": "Naka Weekend Market Phuket"
+   },
+   {
+    "when": "Sun 22 · 13-19",
+    "name": "Zoo del Mar, Café del Mar",
+    "note": "Pool party on Kamala Beach before sunset",
+    "q": "Cafe del Mar Phuket Kamala"
+   }
+  ]
+ }
+}

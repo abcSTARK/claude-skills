@@ -14,6 +14,14 @@
       "version": "1.0.0",
       "category": "productivity",
       "tags": ["file-organization", "security", "privacy", "macos", "pii"]
+    },
+    {
+      "name": "travel-itinerary-builder",
+      "description": "Plans and verifies a multi-day trip, then generates a phone-first live trip guide (HTML with an illustrated real-coastline route map, Now/Next, day plans, options, vetted food and bars), a shareable A4 PDF with working links, and PNG pages for WhatsApp.",
+      "source": "./plugins/travel-itinerary-builder",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["travel", "itinerary", "trip-planning", "html", "pdf", "maps"]
     }
   ]
 }

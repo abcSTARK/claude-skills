@@ -1,0 +1,29 @@
+{
+  "skill_name": "travel-itinerary-builder",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Five of us are going to Phuket, Krabi and Phi Phi from 17 to 24 November. Flights and hotels are booked (I'll paste them). One friend lands at 8pm on day one and it's his birthday on the 21st. Here's a list of cafes and beaches we saw on YouTube. Can you make an itinerary I can open on my phone during the trip?",
+      "expected_output": "Asks only for what it can't find, then researches. Every list item is verified (open, hours, rating, correct name) and reported in 'checked'. Day 1 is organised but keeps famous places until the late arrival; the birthday has no transfers. A trip.json is written to the schema, and the kit builds page, PDF and PNGs. check passes at 390 and 1280 px. The page opens light, has the route map with numbered pins and ferry legs, Now/Next only during the trip, and no countdown or budget section.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Can you make a one-page-per-few-days PDF summary of our Lisbon and Porto trip with links to every restaurant and the train times, so I can share it in our WhatsApp group?",
+      "expected_output": "Produces <slug>-summary.pdf via render with working Google Maps and booking links (render reports the link count), plus PNG copies of each page, and says that links only work in the PDF. Page 1 shows the map (rail legs drawn as rail), stays and transfers; day pages fit without overflow.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Small changes: move the shooting range to the 18th morning based on opening time, and on the 22nd we just want to check in and relax at the hotel, then Kamala beach for sunset and the Sunday market in Old Town for dinner.",
+      "expected_output": "Looks up the range's opening time and the hotel's check-in time before moving anything, edits only trip.json, rebuilds page, PDF and PNGs, republishes to the same live URL, and summarises exactly what changed per day, with sources. The page structure the user approved is unchanged.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Add a few good cafes and bars near our hotel in Kyoto that aren't on my list.",
+      "expected_output": "Added places are marked source 'pick', each verified as currently open with a Google rating of at least 4.5 and a meaningful review count, and are sit-down or destination venues rather than cheap stalls; hours and the day they fit are filled in.",
+      "files": []
+    }
+  ]
+}
